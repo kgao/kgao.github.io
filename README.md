@@ -1,9 +1,6 @@
-Freelancer Jekyll theme
+Kev's Tech Blog
 =========================
-
-Jekyll theme based on [Freelancer bootstrap theme ](http://startbootstrap.com/templates/freelancer/)
-
-## How to use
+## How to Update
  - Place a image in `/img/portoflio/`
  - Create posts to display your projects. Use the follow as an example:
 ```txt
@@ -21,11 +18,6 @@ description: The description of the project
 ---
 ```
 
-## Demo
-View this jekyll theme in action [here](https://jeromelachaud.github.io/freelancer-theme)
-
-## Screenshot
-![screenshot](https://raw.githubusercontent.com/jeromelachaud/freelancer-theme/master/screenshot.png)
-
+## Powered-by Jekyll & bootstrap
 =========
 For more details, read [documentation](http://jekyllrb.com/)
