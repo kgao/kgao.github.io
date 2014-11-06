@@ -20,4 +20,4 @@ description: The description of the project
 
 ## Powered-by Jekyll & bootstrap
 =========
-For more details, read [documentation](http://jekyllrb.com/)
+For more details, read [Jekyll](http://jekyllrb.com/)
