@@ -1,0 +1,83 @@
+---
+layout: blog
+category: blogs
+title: 'First Local Instance With Nginx'
+date: '2014-11-07'
+author: Kgao
+tags: 'HTTP, Server'
+---
+
+
+> This is not the only post you will find on the internet about it, I create a personal post here more as a personal reference.
+
+
+Nginx (pronounced engine-x) is an open source reverse proxy server for HTTP, HTTPS, SMTP, POP3, and IMAP protocols, as well as a load balancer, HTTP cache, and a web server (origin server). The nginx project started with a strong focus on high concurrency, high performance and low memory usage. It is licensed under the 2-clause BSD-like license and it runs on Linux, BSD variants, Mac OS X, Solaris, AIX, HP-UX, as well as on other *nix flavors. It also has a proof of concept port for Microsoft Windows.
+
+#Run on Mac OS X:
+Install with Homebrew
+
+{% highlight bash %}
+$ brew install nginx
+
+$ sudo nginx 
+
+# Note: you may need to grab the ownership of the folder.
+$ sudo chown {yourName} /usr/local 
+
+{% endhighlight %}
+
+
+Then, test via:
+http://localhost:8080
+
+Note: The default place of nginx.conf on Mac after installing with brew is:
+/usr/local/etc/nginx/nginx.conf
+
+
+The nginx default port is 8080, we shall change it to 80. First stop the nginx server if it is running by:
+
+{% highlight bash %}
+$ sudo nginx -s stop
+
+$ vim /usr/local/etc/nginx/nginx.conf
+
+server {
+    listen       8080; -> 80
+    server_name  localhost;
+
+    #access_log  logs/host.access.log  main;
+
+    location / {
+        root   html;
+        index  index.html index.htm;
+    }
+
+{% endhighlight %}
+
+Save configuration and start nginx by:  
+
+{% highlight bash %}
+$ sudo nginx
+{% endhighlight %}
+
+
+Update local instance:
+
+{% highlight bash %}
+$ sudo nginx -s stop
+
+
+$ vim /usr/local/etc/nginx/nginx.conf
+
+Changing the path of defualt web location
+The nginx html folder (brew install only) is by the defult in:
+/usr/local/Cellar/nginx/1.2.3/html
+-->
+/Users/{yourName}/nymag-homepage-master
+
+#restart:
+
+$ sudo nginx
+
+{% endhighlight %}
+

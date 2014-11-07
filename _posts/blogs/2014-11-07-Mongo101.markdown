@@ -1,0 +1,84 @@
+---
+layout: blog
+category: blogs
+title: 'Mongo 101: No SQL DataBase'
+date: '2014-11-07'
+author: Kgao
+tags: 'DB,Mongo'
+---
+
+
+> This is not the only post you will find on the internet about it, I create a personal post here more as a personal reference.
+
+
+MongoDB (from humongous) is a cross-platform document-oriented database. Classified as a NoSQL database, MongoDB eschews the traditional table-based relational database structure in favor of JSON-like documents with dynamic schemas (MongoDB calls the format BSON), making the integration of data in certain types of applications easier and faster. Released under a combination of the GNU Affero General Public License and the Apache License, MongoDB is free and open-source software.
+
+
+#Install Mongo DB:
+Update brew if needed:
+{% highlight bash %}
+brew update
+{% endhighlight %}
+Use the following command to install the MongoDB package into your Homebrew system:
+{% highlight bash %}
+brew install mongodb
+{% endhighlight %}
+
+Later, if you need to upgrade MongoDB:
+{% highlight bash %}
+$ brew update
+$ brew upgrade mongodb
+{% endhighlight %}
+
+You share see those if succeed:
+{% highlight bash %}
+==> Downloading https://downloads.sf.net/project/machomebrew/Bottles/mongodb-2.4.6.l
+######################################################################## 100.0%
+==> Pouring mongodb-2.4.6.lion.bottle.tar.gz
+==> Caveats
+To have launchd start mongodb at login:
+    ln -sfv /usr/local/opt/mongodb/*.plist ~/Library/LaunchAgents
+Then to load mongodb now:
+    launchctl load ~/Library/LaunchAgents/homebrew.mxcl.mongodb.plist
+Or, if you don't want/need launchctl, you can just run:
+    mongod
+{% endhighlight %}
+
+
+
+#Check the ownership of local db:
+
+Here is an example to fix it if its not you:
+{% highlight bash %}
+KGao-iMac-27:mongodb kgao$ ls -ld /data/db/
+drwxr-xr-x  9 userone wheel  306 Jul  1 15:26 /data/db/
+???
+KGao-iMac-27:mongodb kgao$ sudo su
+Password:
+sh-3.2# chown -R kgao .
+{% endhighlight %}
+
+#Start Mango DB:
+
+Open  /usr/local/mongodb,
+{% highlight bash %}
+$ sudo chown kgao /data/db
+{% endhighlight %}
+
+Setting your PATH, the MongoDB applications and utilities will be accessible from the system shell. 
+{% highlight bash %}
+$ PATH="/usr/local/mongodb/bin:${PATH}"
+$ export PATH
+{% endhighlight %}
+
+In on shell , run: 
+{% highlight bash %}
+$ mongod
+{% endhighlight %}
+
+Then open the mongo shell by issuing the following command at the system prompt:
+{% highlight bash %}
+$ mongo
+{% endhighlight %}
+
+P.s. The default port for mongod and mongos instances is 27017

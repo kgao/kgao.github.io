@@ -1,40 +1,43 @@
 ---
 layout: blog
 category: blogs
-title: 'Hello Blog'
+title: 'Hello World: How to write a tech blog.'
 date: '2014-11-06'
 author: Kgao
-tags: 'Github, io'
+tags: 'Github,Marketdown'
 ---
 
 
-> This is not the only post you will find on the internet about it, I create a personal post here more as a personal reference
-about this matter.
+> This is not the only post you will find on the internet about it, I create a personal post here more as a personal reference.
 
-#Discarding output
+#Step 1. Determine your motivation for writing a technology blog. 
 
-If you just want to get rid of the output, you can redirect to void using:
+This will play an important role in determining which topics you write about and how much depth and background or supporting information you provide. 
+
+If you just want to get show off some code, you can put it in a html bash using:
 {% highlight bash %}
-$ python foo.py > /dev/null
+$ print: What? You start to write some code now?
 {% endhighlight %}
 
+A hobby, an expert, for fun?
+Lets assume we have a good motivation beside earning money.
 
-When running a application in a non dev environment, you certainly want to log messages and errors to a file rather than just
-displaying to the console.  
-Let's assume we have a python script called `foo.py`.
+#Step2. Decide what to write about.
 
-#Redirect standard output to the file app.log
+That's always the most difficult part. What did I just wrote?
 
-Standard redirection is done with a single >. This will replace the file each time your restart your script. Two > will append
-to the file.
+Plan your topics for the next 3 months ahead of time so you're prepared and have plenty of time to research them. If you're serious about blogging, you might want to have the entire 3 months of content written ahead of time so you can maintain a consistent number of posts while researching and writing more content. 
 
-{% highlight bash %}
-#Erase current log content
-$ python foo.py > app.log
-#Append to current log content
-$ python foo.py >> app.log
+Again, highlight some ideas:
+{% highlight bash %} 
+$ print: You have to decided on your own!
 {% endhighlight %}
 
+#Step3. Do research.
+
+Even if you know a lot about a subject, always make sure to do some quick research to verify what you're writing. If you are writing as an expert, provide more detailed research, as well as sources and links to other pages.
+
+Here is some example for research:
 > Note that you can simple empty a file with:
 
 {% highlight bash %}
@@ -80,3 +83,11 @@ $ python foo.py > all.log 2>&1
 #Easier syntax for Bash greater than 4.0
 $ python foo.py &> all.log
 {% endhighlight %}
+
+
+#Step4. Set a tone for your blog.
+
+Very important!
+
+Blogs are casual, opinionated authored articles and usually don't include a lot of complicated terms and language. Even if you're an expert, try to explain things in terms that a layman will understand.
+
