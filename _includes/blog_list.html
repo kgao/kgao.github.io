@@ -1,6 +1,6 @@
 
     <!-- Portfolio Grid Section -->
-    <section id="blog" class="archive">
+    <section id="blog">
       <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -11,7 +11,7 @@
         {% for post in site.categories.blogs %}
         {% unless post.next %}
         {% unless forloop.first %}</div></div>{% endunless %}
-        <div class="row">
+        <div class="row archive">
         <div class="bundle row gutters fadeInDown animated">
             <h1 class="post-year col span_2">{{ post.date | date: '%Y' }}</h1>
                 <div class="posts-by-year col span_10">
@@ -25,14 +25,15 @@
                 <div class="posts-by-year col span_10">
                 {% endif %}
                 {% endunless %}
-                <article class="row gutters">
-                <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}" class="col span_8">{{ post.title }}</a>
+            <article class="row gutters">
+                    <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}" class="col span_8">
+                    {{ post.title }}</a>
                 <div class="col span_4">
                 <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%-d %B" }}</time><br/>
                 <em class="tags">{{ post.tags }}</em>
                 </div>
-        </article>
-        <hr/>
+            </article>
+           <hr/>
         {% if forloop.last %}</div></div>{% endif %}
         {% endfor %}
         </div>
