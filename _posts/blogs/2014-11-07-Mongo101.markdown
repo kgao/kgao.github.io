@@ -1,7 +1,7 @@
 ---
 layout: blog
 category: blogs
-title: 'Mongo 101: No SQL DataBase'
+title: 'Mongo 101: NoSQL DataBase'
 date: '2014-11-07'
 author: Kgao
 tags: 'DB,Mongo'
