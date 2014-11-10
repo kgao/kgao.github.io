@@ -25,11 +25,12 @@ Normalized databases fair very well under conditions where the applications are 
 
 {% highlight bash %}
 
-    Normalized tables are usually smaller and have a smaller foot-print because the data is divided vertically among many tables. This allows them to perform better as they are small enough to get fit into the buffer.
-    The updates are very fast because the data to be updated is located at a single place and there are no duplicates.
-    Similarly the inserts are very fast because the data has to be inserted at a single place and does not have to be duplicated.
-    The selects are fast in cases where data has to be fetched from a single table, because normally normalized tables are small enough to get fit into the buffer.
-    Because the data is not duplicated so there is less need for heavy duty group by or distinct queries.
+    1. Normalized tables are usually smaller and have a smaller foot-print because the data is divided vertically among many tables.
+    2. This allows them to perform better as they are small enough to get fit into the buffer.
+    3. The updates are very fast because the data to be updated is located at a single place and there are no duplicates.
+    4. Similarly the inserts are very fast because the data has to be inserted at a single place and does not have to be duplicated.
+    5. The selects are fast in cases where data has to be fetched from a single table, because normally normalized tables are small enough to get fit into the buffer.
+    6. Because the data is not duplicated so there is less need for heavy duty group by or distinct queries.
 
 {% endhighlight %}
 
@@ -39,8 +40,8 @@ Denormalized databases fair well under heavy read-load and when the application 
 
 {% highlight bash %}
 
-    The data is present in the same table so there is no need for any joins, hence the selects are very fast.
-    A single table with all the required data allows much more efficient index usage. If the columns are indexed properly, then results can be filtered and sorted by utilizing the same index. While in the case of a normalized table, since the data would be spread out in different tables, this would not be possible.
+    1. The data is present in the same table so there is no need for any joins, hence the selects are very fast.
+    2. A single table with all the required data allows much more efficient index usage. If the columns are indexed properly, then results can be filtered and sorted by utilizing the same index. While in the case of a normalized table, since the data would be spread out in different tables, this would not be possible.
 
 {% endhighlight %}
 
@@ -50,7 +51,7 @@ Denormalized databases fair well under heavy read-load and when the application 
 
 In our media tech team, we have multiple resources like articles, images, slideshows, videos, and also 3rd party resources.
 
-1. Denormalization:
+# - Denormalization:
 Since our digital content mainly focus on pages now, we denormalize data in articles collection and normallize other resources.
 
 The reason we denormalize articles because we can sever the page faster, without join multiple collections to gather the information, we can get articles feeds instantly.
@@ -60,7 +61,7 @@ Denormalization in articles collection makes sense since the client(CMS) will ma
 This really imporoved the response speed and reduced lots mongo slow queries, in a high concurrency environment, which will boost the page speed in a very optimistic way.
 
 
-2. Normalization:
+# - Normalization:
 
 To reduce the duplication of data, separate each department's responsibility and provide a faster update channel for internal resource update, we normalize some resources, like images, slideshows, videos...etc.
 
@@ -69,10 +70,10 @@ We also build relationships, like embeded resource in articles, it brings us suc
 
 {% highlight bash %}
 
-    arranging data into logical groupings such that each group describes a small part of the whole
-    minimizing the amount of duplicate data stored in a database
-    organizing the data such that, when you modify it, you make the change in only one place
-    building a database in which you can access and manipulate the data quickly and efficiently without compromising the integrity of the data in storage
+    1. Arranging data into logical groupings such that each group describes a small part of the whole
+    2. Minimizing the amount of duplicate data stored in a database
+    3. Organizing the data such that, when you modify it, you make the change in only one place
+    4. Building a database in which you can access and manipulate the data quickly and efficiently without compromising the integrity of the data in storage
 
 
 {% endhighlight %}
