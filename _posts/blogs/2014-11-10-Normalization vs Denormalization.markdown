@@ -2,7 +2,7 @@
 layout: blog
 category: blogs
 title: 'DataBase Normalization vs Denormalization: My thoughts in a NoSQL World'
-date: '2014-11-07'
+date: '2014-11-10'
 author: Kgao
 tags: 'Normalization,Denormalization,NoSQL'
 ---
