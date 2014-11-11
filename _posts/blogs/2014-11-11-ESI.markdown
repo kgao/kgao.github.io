@@ -1,0 +1,88 @@
+---
+layout: blog
+category: blogs
+title: 'Edge Side Includes (ESI) Overview'
+date: '2014-11-11'
+author: Kgao
+tags: 'ESI'
+---
+
+
+> This is not the only post you will find on the internet about it, I create a personal post here more as a personal reference.
+
+Edge Side Includes (ESI) accelerates dynamic Web-based applications by defining a simple markup language to describe cacheable and non-cacheable Web page components that can be aggregated, assembled and delivered at the network edge. 
+
+#The Promise and Challenge of Dynamic Content
+
+The World Wide Web has evolved beyond simply displaying static Web pages. Increasingly, e-
+businesses are delivering dynamically generated content -- such as product catalogs, auctions,
+exchanges, stock quotes, news, and weather -- to attract and retain customers. Web developers
+frequently use technologies like JavaServer Pages (JSP) and Active Server Pages (ASP) to design their
+applications, mainly because it is easier to develop and maintain feature-rich Web sites when information
+is stored in a database.
+While dynamically generated content provides a more compelling experience for the end-user and an
+easier development model for the application designer, it presents e-businesses with a new challenge ñ
+delivering Web pages quickly. As traffic on Web sites increases, the computing overhead associated with
+building personalized pages on-the-fly for thousands of concurrent users can result in increasing delays
+and failures in data delivery.
+Dynamic content creation places significant strain on traditional Web site architectures. This is because
+the same infrastructure used to generate the content is used to deliver the content.
+
+Generating dynamic content typically incurs: 1) network overhead as user requests are dispatched to
+appropriate software modules that service these requests; 2) processing overhead as these modules
+determine which data to fetch and present; and 3) disk I/O as these modules query the back-end
+database. The assembled data then needs to be formatted and delivered to the browser. In short,
+building Web pages on-the-fly is computationally expensive. For this reason, e-businesses are often
+forced to spend millions of dollars on hardware, software and services to meet the demands of an ever-
+growing user population. 
+
+
+#Dynamic Caching and Content Assembly Using ESI
+
+ESI enables Web pages to be broken down into fragments of differing cacheability profiles. These
+fragments are maintained as separate elements in the application serverís local cache and/or on the
+content delivery network. ESI page fragments are assembled into HTML pages when requested by end
+users. This means that much more dynamically generated content can be cached, then assembled and
+delivered from the edge when requested. Furthermore, page assembly can be conditional, based on
+information provided in HTTP request headers or end-user cookies
+
+
+#Content Management System (CMS) Using ESI
+
+ESI provides a number of ways to manage the consistency (freshness) of cached objects, including the
+ability to define expiration policies. Due to the unpredictable nature of frequently changing content, ESI
+also includes a content invalidation specification. The invalidation specification is used by syndication
+servers, content management systems, databases, custom scripts, application logic, etc. to send HTTP-
+based invalidation messages to the local cache and/or delivery network. The invalidation message tells
+the cache or delivery network to overwrite the metadata associated with particular objects residing on
+edge servers. In this way, e-businesses are able to control the validity of volatile content just as if it were
+residing on static Web servers, and at the same time, leverage the price/performance benefits of local
+caches and distributed content delivery networks.
+Integrated into an application server, the invalidation specification allows for seamless purging of out of
+date or undesired content from the local cache or remote delivery network. This can be achieved with a
+database trigger, script, or another method that can then be integrated into the site administration process
+used by the application server. To the customer, the invalidation process is transparent. When a catalog
+item is flagged in the database, it is no longer viewable on the Web site, even though that site might now
+be served from thousands of content delivery servers spread across the hundreds of networks that form
+the Internet. 
+
+
+# Summary: Key Benefits of ESI
+
+{% highlight bash %}
+1. Speeds up delivery of highly dynamic Web-based applications;
+
+2. Saves e-businesses money by reducing the infrastructure required to deliver fast, scalable and
+fault-tolerant applications;
+
+3. Reduces the complexity of developing dynamic Web-based applications for edge deployment;
+
+4. Provides e-businesses with a choice in how to extend their Web infrastructure to support
+increasing traffic, from managed data centers to managed content delivery networks;
+
+5. Enables e-businesses to deploy ESI-compliant applications seamlessly on both application
+servers and content delivery networks without re-writing the applications. 
+
+
+{% endhighlight %}
+
