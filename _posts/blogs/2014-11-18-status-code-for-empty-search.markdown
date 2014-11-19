@@ -46,7 +46,7 @@ http://www.vulture.com/news/fall-2009/11209/
 These pages are returning status code 200 right now, URLs like this need to return status code 404 instead of 200.
 
 
-#Chanllenge: 
+#Challenge: 
 
 From developer team perspective, it looks like 200 is fine, since we do serve resoponse from our backend.
 From desginer team perspective, they don't really care the http status code, as long as they can have a good UI with customer infomation on it.
