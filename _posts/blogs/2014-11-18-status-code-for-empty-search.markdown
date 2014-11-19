@@ -149,7 +149,7 @@ I was searching around for 200 vs 204 discussion on an empty REST collection, an
 
 Browser behavior adds another interesting wrinkle to this discussion.  Navigating to a URL that returns 204 in Chrome, Firefox, and IE results in an aborted or cancelled request.  These browsers all stay on the current page while showing the new URL in the address bar.  This has confused me when using a browser to inspect a REST API.  Chrome and IE developer tools also make this look like a kind of request failure (show status cancelled in Chrome dev tools), and I have to dig into the result to see that it was actually a 204.  I don't know why browsers don't simply display a blank page like about:blank (although I'm sure there's a reason).  On the other hand, if the API returns a 200 with an empty collection, the browser will simply navigate to that URL and display the empty array.  To me, browser behavior for 204 violates the principle of least astonishment (at least, it astonished me), plus we don't suppor a customer 404 at this moment, which makes 404 more scary to users, this pushes me to keep using 200 with an empty collection.
 
-Well, at least for now. 
+Well, at least for now 
 :P
 
 
