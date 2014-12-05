@@ -1,5 +1,18 @@
 Kev's Tech Blog
 =========================
+## Get Started ([HELP](https://help.github.com/articles/using-jekyll-with-pages/))
+
+```txt
+---
+#First, check:
+ruby --version
+#Then
+gem install bundler + bundle exec jekyll serve
+#or
+gem install github-pages + jekyll serve
+---
+```
+
 ## How to update
  - Place a image in `/img/portoflio/`
  - Create posts to display your projects. Use the follow as an example:
@@ -16,6 +29,6 @@ tags: 'Github,Marketdown'
 
 ## Powered-by Jekyll & bootstrap
 =========
-Jekyll [link](http://jekyllrb.com/)
-bootstrap [link](http://getbootstrap.com/)
-View Blog [link](http://nymag.github.io)
+[Jekyll](http://jekyllrb.com/) | 
+[bootstrap](http://getbootstrap.com/) | 
+[View Blog](http://nymag.github.io)

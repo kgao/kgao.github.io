@@ -25,6 +25,10 @@ a.active {
     color: #{{ site.color.primary }};
 }
 
+#about a{
+    color: white;
+}
+
 h1,
 h2,
 h3,
