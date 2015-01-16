@@ -20,6 +20,7 @@ So are we. We tend to add share counts on the page to show how popular they are 
 
 i.e.
 Open this link in ur browser:
+or click <a herf="http://nymag.com/thecut/2013/09/pill-no-prob-meet-the-pullout-generation.html" target="_blank">Here<a/>
 {% highlight bash %}
 http://nymag.com/thecut/2013/09/pill-no-prob-meet-the-pullout-generation.html
 {% endhighlight %}
@@ -56,14 +57,22 @@ Dynamic Cache pages have some scheme:
 
 　　 Advantages: 
 {% highlight bash %}
-capable of parallel processing system and loading the browser client; this technique without server 
-support and modification, calculation and operation on the client, can reduce server pressure
+capable of parallel processing system and 
+loading the browser 
+client; this technique without server 
+support and modification, 
+calculation and operation on the client, 
+can reduce server 
+pressure
 {% endhighlight %}
 
 　　 Disadvantages: 
 {% highlight bash %}
-search engine optimization problem; JavaScript compatibility issues; the client cache may lead to 
-not work timely server content updated. To solve the often by adding JS version
+search engine optimization problem; 
+JavaScript compatibility issues; 
+the client cache may lead to 
+no work timely server content updated. 
+To solve the often by adding JS version
 {% endhighlight %}
 
 #Server Side Includes(SSI):
@@ -72,14 +81,21 @@ not work timely server content updated. To solve the often by adding JS version
 
 　　 Advantages: 
 {% highlight bash %}
-SSI technology is general, not specific language restrictions, only need a Web server or application 
-server support, Ngnix, Apache, Tomcat, Jboss have good support, the Squid does not support.
+SSI technology is general, not specific 
+language restrictions, only need a Web 
+server or application 
+server support, Ngnix, Apache, Tomcat, 
+Jboss have good support, the Squid 
+does not support.
 {% endhighlight %}
 
 　　 Disadvantages: 
 {% highlight bash %}
-SSI can not be directly included in the other servers in the grammar of URL, can run on the server. 
-So through the CDN, Cache, or failure, is not flexible
+SSI can not be directly included in the 
+other servers in the grammar of URL, can 
+run on the server. 
+So through the CDN, Cache, or failure, 
+is not flexible
 {% endhighlight %}
 
 #Edge Side Includes (ESI):
@@ -88,20 +104,25 @@ So through the CDN, Cache, or failure, is not flexible
 
 　　Advantages: 
 {% highlight bash %}
-the ESI is more suitable for the cache, cache the entire page or page fragment, so ESI is particularly 
-suitable for caching, CDN the first boss, Akamai support agreement. 
+the ESI is more suitable for the cache, cache 
+the entire page or page fragment, so ESI is 
+particularly 
+suitable for caching, CDN the first boss, 
+Akamai support agreement. 
 It's the most friendly for layout and Cache.
 {% endhighlight %}
 
 　　Disadvantages: 
 {% highlight bash %}
-come out for a long time, there has been no many people use. This technology programmer not. 
+come out for a long time, there has been no many 
+people use. This technology programmer not. 
 {% endhighlight %}
 
 
 #Conclusion:
 
-So it's up to you to choose the technology, but it's up to the technology to fit your project.
+So it's up to you to choose the technology, 
+but it's up to the technology to fit your project.
 Becareful and keep practicing!
 ;P 
 
