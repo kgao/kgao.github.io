@@ -20,10 +20,7 @@ So are we. We tend to add share counts on the page to show how popular they are 
 
 i.e.
 Open this link in ur browser:
-or click <a herf="http://nymag.com/thecut/2013/09/pill-no-prob-meet-the-pullout-generation.html">Here<a/>
-{% highlight bash %}
 http://nymag.com/thecut/2013/09/pill-no-prob-meet-the-pullout-generation.html
-{% endhighlight %}
 
 On the page center left you will see:
 
@@ -133,7 +130,8 @@ Congratulations to everyone in NYMag team on our 10 (!) National Magazine Award 
 So much deserving work honored (also so much ignored, but that's show business.)  
 We had a great year, and everyone, nominated and not, deserves to feel enormous pride in our efforts — not just today, but everyday.
 
-Here’s a link to the full list of nominees and ASME’s press release: http://www.magazine.org/asme/national-magazine-awards-2015-finalists-announced
+Here’s a link to the full list of nominees and ASME’s press release:
+http://www.magazine.org/asme/national-magazine-awards-2015-finalists-announced
  
  
 
