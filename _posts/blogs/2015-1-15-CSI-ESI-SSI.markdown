@@ -20,7 +20,7 @@ So are we. We tend to add share counts on the page to show how popular they are 
 
 i.e.
 Open this link in ur browser:
-or click <a herf="http://nymag.com/thecut/2013/09/pill-no-prob-meet-the-pullout-generation.html" target="_blank">Here<a/>
+or click <a herf="http://nymag.com/thecut/2013/09/pill-no-prob-meet-the-pullout-generation.html">Here<a/>
 {% highlight bash %}
 http://nymag.com/thecut/2013/09/pill-no-prob-meet-the-pullout-generation.html
 {% endhighlight %}
