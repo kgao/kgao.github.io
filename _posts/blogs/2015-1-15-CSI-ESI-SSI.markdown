@@ -18,10 +18,15 @@ They like us and they like to share those great articles to their social network
 Nowadays its normal to showoff the popularity of a core product for each company.
 So are we. We tend to add share counts on the page to show how popular they are and which is the most hot one for users.
 
-i.e. http://nymag.com/thecut/2013/09/pill-no-prob-meet-the-pullout-generation.html
-ont the page left you will see:
+i.e.
+Open this link in ur browser:
 {% highlight bash %}
+http://nymag.com/thecut/2013/09/pill-no-prob-meet-the-pullout-generation.html
+{% endhighlight %}
 
+On the page center left you will see:
+
+{% highlight bash %}
 10.1k 
 Shares
 
@@ -100,6 +105,16 @@ So it's up to you to choose the technology, but it's up to the technology to fit
 Becareful and keep practicing!
 ;P 
 
+----------------------------------
+Btw this article is for celebrating our company's new achievement in 2015!
+
+Congratulations to everyone in NYMag team on our 10 (!) National Magazine Award nominations (which may be our personal record; not sure).  
+So much deserving work honored (also so much ignored, but that's show business.)  
+We had a great year, and everyone, nominated and not, deserves to feel enormous pride in our efforts — not just today, but everyday.
+
+Here’s a link to the full list of nominees and ASME’s press release: http://www.magazine.org/asme/national-magazine-awards-2015-finalists-announced
+ 
+ 
 
 
 
