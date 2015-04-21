@@ -108,6 +108,7 @@ suitable for caching, CDN the first boss,
 Akamai support agreement. 
 It's the most friendly for layout and Cache.
 {% endhighlight %}
+p.s. Sometimes we have site feeds change via fresh on client browser, this actually because the feeds component is out of ESI, then the data cached with html in browser. Adding ESI around that component layout is one of the solution for it.
 
 　　Disadvantages: 
 {% highlight bash %}
