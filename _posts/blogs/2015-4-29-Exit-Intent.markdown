@@ -13,7 +13,7 @@ tags: 'Exit Intent, Nodejs, Web'
 
 #Intro:
 
-TThe term exit intent has been growing in popularity over the last few years in the E-commerce world.
+The term exit intent has been growing in popularity over the last few years in the E-commerce world.
 
 Essentially, it uses Javascipt and the web browser to track the movements of a user so a special offer or opt-in form can be displayed when they show signs of leaving your website.
 
