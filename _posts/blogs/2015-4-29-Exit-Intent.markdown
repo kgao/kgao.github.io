@@ -103,7 +103,7 @@ And check how it grows your revenue by anywhere up to x %
 
 
 Ref:
-More exit intent explaination and inspired here:Add https://blog.gleam.io
+More exit intent explaination and inspired here: https://blog.gleam.io
 
 
 
