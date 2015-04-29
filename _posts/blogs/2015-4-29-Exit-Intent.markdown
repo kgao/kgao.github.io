@@ -13,9 +13,9 @@ tags: 'Exit Intent, Nodejs, Web'
 
 #Intro:
 
-Exit intent nwo is growing in the whole internet world. It's a must-have feeature in your site. 
+Exit Intent Technology now is growing in the whole internet world. It's a must-have feeature in your site. 
 
-Essentially, you could uses Javascipt and the web browser to track the movements of a user so a special offer or opt-in form can be displayed when they show signs of leaving your website.
+Basically, you could uses Javascipt and the web browser to track the movements of a user so a special offer or opt-in form can be displayed when they show signs of leaving your website.
 
 Isn’t that complicated for the technology itself, but it’s more about how you use it.
 
