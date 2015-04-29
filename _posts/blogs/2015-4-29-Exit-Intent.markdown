@@ -13,13 +13,15 @@ tags: 'Exit Intent, Nodejs, Web'
 
 #Intro:
 
-The term exit intent has been growing in popularity over the last few years in the E-commerce world.
+Exit intent nwo is growing in the whole internet world. It's a must-have feeature in your site. 
 
-Essentially, it uses Javascipt and the web browser to track the movements of a user so a special offer or opt-in form can be displayed when they show signs of leaving your website.
+Essentially, you could uses Javascipt and the web browser to track the movements of a user so a special offer or opt-in form can be displayed when they show signs of leaving your website.
 
-The technology itself isn’t that complicated, but it’s more about how you use it.
+Isn’t that complicated for the technology itself, but it’s more about how you use it.
 
-Today, I’m going to show you two things. First I’ll show you why this technology is worth looking at, secondly I’ll show you how to set one up fast that will grow your revenue by anywhere up to x %.
+Today, I’m going to show you two things:
+1st The value of this technology will bring to your site. 
+2nd The implementation of it.
 
 #Design:
 
@@ -94,6 +96,8 @@ It's your turn now, you can play with it, go create some popups like newsletter 
 Let the user remember it first.
 
 Don't forget AB-test. 
+
+And check how it grows your revenue by anywhere up to x %
 
 ;P
 
