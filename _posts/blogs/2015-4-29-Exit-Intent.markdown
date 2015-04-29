@@ -102,5 +102,8 @@ And check how it grows your revenue by anywhere up to x %
 ;P
 
 
+Ref:
+More exit intent explaination and inspired here: https://blog.gleam.io
+
 
 
