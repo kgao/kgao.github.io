@@ -10,7 +10,7 @@ tags: 'ESI'
 
 > This is not the only post you will find on the internet about it, I create a personal post here more as a personal reference.
 
-Edge Side Includes (ESI) accelerates dynamic Web-based applications by defining a simple markup language to describe cacheable and non-cacheable Web page components that can be aggregated, assembled and delivered at the network edge. 
+Edge Side Includes (ESI) accelerates dynamic Web-based applications by defining a simple markup language to describe cacheable and non-cacheable Web page components that can be aggregated, assembled and delivered at the network edge.
 
 #The Promise and Challenge of Dynamic Content
 
@@ -34,7 +34,7 @@ determine which data to fetch and present; and 3) disk I/O as these modules quer
 database. The assembled data then needs to be formatted and delivered to the browser. In short,
 building Web pages on-the-fly is computationally expensive. For this reason, e-businesses are often
 forced to spend millions of dollars on hardware, software and services to meet the demands of an ever-
-growing user population. 
+growing user population.
 
 
 #Dynamic Caching and Content Assembly Using ESI
@@ -64,7 +64,7 @@ database trigger, script, or another method that can then be integrated into the
 used by the application server. To the customer, the invalidation process is transparent. When a catalog
 item is flagged in the database, it is no longer viewable on the Web site, even though that site might now
 be served from thousands of content delivery servers spread across the hundreds of networks that form
-the Internet. 
+the Internet.
 
 
 # Summary: Key Benefits of ESI
@@ -81,8 +81,9 @@ fault-tolerant applications;
 increasing traffic, from managed data centers to managed content delivery networks;
 
 5. Enables e-businesses to deploy ESI-compliant applications seamlessly on both application
-servers and content delivery networks without re-writing the applications. 
+servers and content delivery networks without re-writing the applications.
 
 
 {% endhighlight %}
 
+Ref - Dive Into HTML5(http://diveintohtml5.info)
