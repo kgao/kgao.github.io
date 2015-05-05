@@ -1,0 +1,12 @@
+---
+layout: default
+modal-id: 6
+date: 2006-09-15
+img: submarine.png
+alt: image-alt
+project-date: September 2006
+client: http://www.cie.sdu.edu.cn
+category: Education
+description: During the time working in Bchine software development department, delivery the website for the SDU CIE NEWS  (http://www.cie.sdu.edu.cn) using JSP+ Struts+MySQL.
+
+---
