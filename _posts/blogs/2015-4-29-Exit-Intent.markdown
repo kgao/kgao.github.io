@@ -4,7 +4,7 @@ category: blogs
 title: 'An implementation for Exit Intent Technology'
 date: '2015-4-29'
 author: Kgao
-tags: 'Exit Intent, Nodejs, Web'
+tags: 'Exit Intent, Node.js, Web'
 ---
 
 
@@ -13,14 +13,14 @@ tags: 'Exit Intent, Nodejs, Web'
 
 #Intro:
 
-Exit Intent Technology now is growing in the whole internet world. It's a must-have feeature in your site. 
+Exit Intent Technology now is growing in the whole internet world. It's a must-have feeature in your site.
 
 Basically, you could uses Javascipt and the web browser to track the movements of a user so a special offer or opt-in form can be displayed when they show signs of leaving your website.
 
 Isn’t that complicated for the technology itself, but it’s more about how you use it.
 
 Today, I’m going to show you two things:
-1st The value of this technology will bring to your site. 
+1st The value of this technology will bring to your site.
 2nd The implementation of it.
 
 #Design:
@@ -95,7 +95,7 @@ Here is a version using jQuery and ouibounce lib:
 It's your turn now, you can play with it, go create some popups like newsletter signup, member only promotion...etc.
 Let the user remember it first.
 
-Don't forget AB-test. 
+Don't forget AB-test.
 
 And check how it grows your revenue by anywhere up to x %
 
@@ -104,6 +104,3 @@ And check how it grows your revenue by anywhere up to x %
 
 Ref:
 More exit intent explaination and inspired here: https://blog.gleam.io
-
-
-
