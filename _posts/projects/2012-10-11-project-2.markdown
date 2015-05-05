@@ -8,4 +8,5 @@ project-date: October 2012
 client: ice.com
 category: E-commerce
 description: Ice is an Ecommerce incorporation, one of the first companies to turn a jewelry store into an online shopping experience and since 1999. Joined the division of Ice IT department, delivery Front/Back End J2EE solutions with an agile developer team. Development related in front/back end technologies,handle OMS, CMS, S3 Uploader System and customer loyalty program.
+
 ---
