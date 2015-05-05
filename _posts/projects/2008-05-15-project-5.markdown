@@ -6,7 +6,8 @@ img: safe.png
 alt: image-alt
 project-date: May 2008
 client: bchine.com
-category: Information Techonlogy
+industry: Information Technology
+category: projects
 description: Bchine is a IT company under management of Shandong University. Join the software development department and promoted to be the manager of the department, tapped to lead the division of an entrepreneurial enterprise launched through Shandong University and employing 100+ people as well as 50 exceptional students from the Software, Computer, and Mathematics Institutes as well as the School of Economics & Management. Utilized proficiencies in Java, JavaScript, CSS, JSP, created web applications, Resource Management and News Publishing Systems.
 
 ---

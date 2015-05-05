@@ -6,7 +6,8 @@ img: game.png
 alt: image-alt
 project-date: August 2009
 client: echung.com.cn
-category: Hardware/Media
+industry: Hardware/Media
+category: projects
 description: Echuang Electronics is a high-tech company, mainly focus on AI hardware devices in multiple fields like medichine, shopping, education. The tech team also produce digital movies and devices, including 4D movie theater, LED digital world. Join the IT dept as a junior developer, support on multiple media platforms.
 
 ---

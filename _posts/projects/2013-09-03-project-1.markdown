@@ -6,7 +6,8 @@ img: cabin.png
 alt: image-alt
 project-date: September 2013
 client: nymag.com
-category: Media
+industry: Media
+category: projects
 description: Based in bustling New York City, we are a large Media Holdings Co. of various print and web publications. New York Magazine, founded in April 1968, reaches 1.8 million readers each week and is published by New York Media, LLC. Join the world class engineering team as a backend developer.Contribute to establishing coding standards, refining testing strategies, selecting new frameworks and technologies
 
 ---
