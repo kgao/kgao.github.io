@@ -27,8 +27,7 @@ tags: 'Github,Marketdown'
 ---
 ```
 
- - Powered-by Jekyll & bootstrap
-  =========
+ - Powered-by
   [Jekyll](http://jekyllrb.com/) |
   [bootstrap](http://getbootstrap.com/) |
-  [View Blog](http://nymag.github.io)
+  [NYMag Blog](http://nymag.github.io)
