@@ -27,7 +27,7 @@ tags: 'Github,Marketdown'
 ---
 ```
 
-#### Powered-by Jekyll & bootstrap
+Powered-by Jekyll & bootstrap
 =========
 [Jekyll](http://jekyllrb.com/) |
 [bootstrap](http://getbootstrap.com/) |
