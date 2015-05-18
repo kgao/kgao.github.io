@@ -1,6 +1,6 @@
 Kev's Tech Blog
 =========================
-[![Coverage Status](https://s3.amazonaws.com/assets.coveralls.io/badges/coveralls_100.svg)]
+[![Coverage Status](https://s3.amazonaws.com/assets.coveralls.io/badges/coveralls_100.svg)](#)
 
 ## Get Started ([HELP](https://help.github.com/articles/using-jekyll-with-pages/))
 
