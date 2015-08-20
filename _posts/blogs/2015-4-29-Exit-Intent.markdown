@@ -15,7 +15,7 @@ tags: 'Exit Intent, Node.js, Web'
 
 Exit Intent Technology now is growing in the whole internet world. It's a must-have feature in your site.
 
-Basically, you could uses Javascipt and the web browser to track the movements of a user so a special offer or opt-in form can be displayed when they show signs of leaving your website.
+Basically, you could use Javascript and the web browser to track the movements of a user so a special offer or opt-in form can be displayed when they show signs of leaving your website.
 
 Isn’t that complicated for the technology itself, but it’s more about how you use it.
 
@@ -68,7 +68,7 @@ Here is a version using jQuery and ouibounce lib:
 {% highlight bash %}
 <div id="your-modal"><div>
 <script>
-  var _ouibounce = ouibounce(document.getElementById('your-modal'), {
+  var ouibounce = ouibounce(document.getElementById('your-modal'), {
     aggressive: true,
     sensitivity: 40,
     timer: 0,
