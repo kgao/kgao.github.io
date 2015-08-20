@@ -149,3 +149,8 @@ Beside media companies, Pixel Tracking  can be a method of tracking that facilit
 What's more, to make it cross domain / cross site, you can invent your own way to generate the pixel, thats the core, industry standard is async generation time < 1000ms. Given this, you could identify a user from different level without losing data even in a short http conversation, and you will have the ability to collect tracking data from different platform.
 
 Now, it's time to test it's performance on your site, enjoy!
+
+
+
+Ref:
+More pixel explaination and inspired here: http://goo.gl/ixd6iJ 
