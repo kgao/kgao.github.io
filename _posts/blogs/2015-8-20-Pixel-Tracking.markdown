@@ -40,7 +40,7 @@ Today, I’m going to show you two things:
 
 #Implementation:
 
-1. How the the pixel get created on client side:
+1.How the the pixel get created on client side:
 
 Since our project is using nodejs. So I'm gonna post some idea here in javascript:
 
@@ -76,7 +76,7 @@ function getPixel(callback) {
 
 
 
-2. How to design the server side api:
+2.How to design the server side api:
 
 Imagine if you use node.js + express to create a server side api for this.
 {% highlight bash %}
@@ -141,7 +141,7 @@ Imagine if you use node.js + express to create a server side api for this.
 
 Those above just provide a basic idea in code level for implementation a pixel tracking story. There are more works related for set up db, server, applications. Also, you might have different requirements, so this is general enough to extend different usecases.
 
-It will be useful, because every advertising platform or website can employ tracking pixels, as the creation of the pixel is a simple matter of attaching a small image to an HTML file that can execute when the page is accessed. The aggregated data could give your sales team data to decide what should be promoted next, and what to recommend to the end users. 
+It will be useful, because every advertising platform or website can employ tracking pixels, as the creation of the pixel is a simple matter of attaching a small image to an HTML file that can execute when the page is accessed. The aggregated data could give your sales team data to decide what should be promoted next, and what to recommend to the end users.
 
 Beside media companies, Pixel Tracking  can be a method of tracking that facilitates an easier and more e-commerce experience for consumers, but as always, the range of practices using cookies make them just as vulnerable as other methods to exploitation.
 
