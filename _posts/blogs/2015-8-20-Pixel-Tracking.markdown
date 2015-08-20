@@ -92,6 +92,7 @@ Imagine if you use node.js + express to create a server side api for this.
     });
   });
 
+  //Get pixel
   app.get('/pixel/:pixelId', function (req, res) {
     getTrackingPixel(req, res, function (e) {
       if (e.code == 200) {
