@@ -110,7 +110,7 @@ Here are the bottom-up pictures from our back end:
       ...
       mongoPool.collection('scores').aggregate([
         { '$match': { 'handle': { '$exists': 1 }, 'gid': { '$in': scoreObject.gids } } },
-        { '$group': { '_id': '$handle', 'points': { '$sum': '$point' } } }, // number of games summary is not required: 'total': { '$sum': 1 },
+        { '$group': { '_id': '$handle', 'points': { '$sum': '$point' } } }, 
         { '$sort': { 'points': -1 } },
         { '$limit': scoreObject.limit }
       ], function (err, doc) {
