@@ -17,7 +17,7 @@ One goal for modern media today is to increase readers' loyalty.  Although the l
 
 Today, let's focus on one piece of it, game and quiz. And the scene behind it - Scoring and Ranking System.
 We released our [Voting Quiz](nymag.com/thecut/2015/10/sex-habits-784-college-students.html) with percentage feature last week, and last friday, we released our first [Weekly Culture Quiz](http://www.vulture.com/2015/10/vultures-week-in-culture-quiz.html) with membership rank and leaderboard feature on our great brand [Vulture](vulture.com).
-
+fdafdfadfadsf
 Vulture, the entertainment destination from the team behind New York magazine, is a beacon for passionate fans who want a smart, comprehensive take on the world of culture and offers around-the-clock, wall-to-wall coverage of movies, TV, music and beyond. Vulture's writers and editors celebrate culture both high and low, because you never know where the next truly brilliant moment will come from.
 
 #The system design:
@@ -35,7 +35,7 @@ Here are the bottom-up pictures from our back end:
 3. A CRUD API to let front end submit score and get result.
    More specifically in our stack: we need a Restful API on top of MongoDB.
    i.e.
-   {% highlight %}
+   {% highlight bash %}
    POST: /account/vote/quiz
    GET: /account/vote/quiz?uid={UserID}&qid={QuizID}
    POST: /account/score/game
@@ -164,7 +164,7 @@ Here are the bottom-up pictures from our back end:
   Submit Quiz Votes
   POST: /account/vote/quiz
   Required: UserID, QuizID, Vote, Weighted, Level, tag Response: HTTP status code
-  {% highlight bash bash %}
+  {% highlight bash %}
   {
     "uid": "oeu1395695396875r0.4988085387740284",
     "qid": "8h4fscx",
