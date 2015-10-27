@@ -1,7 +1,7 @@
 ---
 layout: blog
 category: blogs
-title: 'An Implementation for Pixel Tracking'
+title: 'An implementation for Pixel Tracking'
 date: '2015-8-20'
 author: Kgao
 tags: 'Pixel Tracking, Node.js, Big data'
@@ -153,4 +153,4 @@ Now, it's time to test it's performance on your site, enjoy!
 
 
 Ref:
-More pixel explaination and inspired here: http://goo.gl/ixd6iJ 
+More pixel explaination and inspired here: http://goo.gl/ixd6iJ
