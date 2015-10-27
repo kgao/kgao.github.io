@@ -342,5 +342,7 @@ Like Jane Mcgonigal said in book <Reality is broken>, lets play the game and cha
 
 
 Enjoy:
+
 [Voting Quiz](http://nymag.com/thecut/2015/10/sex-habits-784-college-students.html)
+
 [Weekly Culture Quiz](http://www.vulture.com/2015/10/vultures-week-in-culture-quiz.html)
