@@ -274,7 +274,6 @@ Here are the bottom-up pictures from our back end:
   Game Score Rankings
   GET: /account/score/rank?gids={gameIds}&handle={username}&limit={limitnumber}
   Required: gids Optional: handle, limit Response: Game score rankings for nymag users by weekly, monthly.
-
   {% highlight bash %}
   Response:
     {404: Not Found}
@@ -309,7 +308,7 @@ Here are the bottom-up pictures from our back end:
               "position": 1
         }
     }
-
+  {% endhighlight %}
 
 
 
