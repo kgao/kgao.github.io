@@ -45,8 +45,7 @@ Here are the bottom-up pictures from our back end:
 #Implementation:
 
 1. Here is a doc example in MongoDB:
-
-  {% highlight %}
+  {% highlight bash %}
   {
     \_id : ObjectId("56291c3d328d58d0dddd09f1"),   //Mongo doc id, unique, automatic
     uid : "oeu1442519348199r0.06604118854738772",  //User id, using nyma(ref: pixel tracking), from user cookie, unique, not null.
@@ -165,7 +164,7 @@ Here are the bottom-up pictures from our back end:
   Submit Quiz Votes
   POST: /account/vote/quiz
   Required: UserID, QuizID, Vote, Weighted, Level, tag Response: HTTP status code
-  {% highlight bash %}
+  {% highlight bash bash %}
   {
     "uid": "oeu1395695396875r0.4988085387740284",
     "qid": "8h4fscx",
