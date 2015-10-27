@@ -316,17 +316,28 @@ Here are the bottom-up pictures from our back end:
 
 #End:
 
-Those above just provide a basic idea in code level for implementation a pixel tracking story. There are more works related for set up db, server, applications. Also, you might have different requirements, so this is general enough to extend different usecases.
+"One way or another, if human evolution is to go on, we shall have to learn to enjoy life more thoroughly."        - Mihaly Csikszentmihalyi.
 
-It will be useful, because every advertising platform or website can employ tracking pixels, as the creation of the pixel is a simple matter of attaching a small image to an HTML file that can execute when the page is accessed. The aggregated data could give your sales team data to decide what should be promoted next, and what to recommend to the end users.
+Here I just provide a basic idea in code level for implementation a game/quiz scoring and ranking system, part of the user interaction story, also provide user more entertainment and gain more loyalty . There are more works related for set up integration test environment etc.
 
-Beside media companies, Pixel Tracking  can be a method of tracking that facilitates an easier and more e-commerce experience for consumers, but as always, the range of practices using cookies make them just as vulnerable as other methods to exploitation.
+It will benefit us in a long run for our brand and products, to let user come back to our sites more often and more loyal to our content. Also, there is a lot of fun for doing this and completing with other NYMag readers.
 
-What's more, to make it cross domain / cross site, you can invent your own way to generate the pixel, thats the core, industry standard is async generation time < 1000ms. Given this, you could identify a user from different level without losing data even in a short http conversation, and you will have the ability to collect tracking data from different platform.
+So far we got some good feedback from user experience from our sites, like some of them picked from comments:
 
-Now, it's time to test it's performance on your site, enjoy!
+"Well, makes me feel less intimidated about being a virgin in 20s"
+said by neuroticknight who did the vulture quiz.
+1 day ago
+
+"That was fun. I chunked it, but it was fun."
+said by SwankyOne who did the vulture quiz.
+3 days ago
+
+"This is the most famous I've ever been."
+said by allison.libert who ranked currently No.6 in our vulture weekly quiz leaderboard.
+3 days ago
 
 
+What's more, to make it more useful, if we got good experiences for maintain this nodejs module, we could possiblely opensource this module and express the success to the media community.
 
-Ref:
-More pixel explaination and inspired here: http://goo.gl/ixd6iJ
+Now, it's time to for us to save the real world together!
+Like Jane Mcgonigal said in book <Reality is broken>, lets play the game and change the world.
