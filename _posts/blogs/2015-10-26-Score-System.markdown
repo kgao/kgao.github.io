@@ -47,7 +47,7 @@ Here are the bottom-up pictures from our back end:
 1. Here is a doc example in MongoDB:
   {% highlight bash %}
   {
-    \_id : ObjectId("56291c3d328d58d0dddd09f1"),   //Mongo doc id, unique, automatic
+    _id : ObjectId("56291c3d328d58d0dddd09f1"),   //Mongo doc id, unique, automatic
     uid : "oeu1442519348199r0.06604118854738772",  //User id, using nyma(ref: pixel tracking), from user cookie, unique, not null.
     qid : "quiz-test-10-27-2015", //Quiz or game or vote id, not null
     handle : "kevin",  //User name, only for login users, nullable
@@ -86,7 +86,7 @@ Here are the bottom-up pictures from our back end:
                '$unwind': '$votes'
              }, {
                '$group': {
-                 '\_id': '$votes.name',
+                 '_id': '$votes.name',
                  'count': {
                    $sum: '$votes.weighted'
                  }
@@ -110,7 +110,7 @@ Here are the bottom-up pictures from our back end:
       ...
       mongoPool.collection('scores').aggregate([
         { '$match': { 'handle': { '$exists': 1 }, 'gid': { '$in': scoreObject.gids } } },
-        { '$group': { '\_id': '$handle', 'points': { '$sum': '$point' } } }, // number of games summary is not required: 'total': { '$sum': 1 },
+        { '$group': { '_id': '$handle', 'points': { '$sum': '$point' } } }, // number of games summary is not required: 'total': { '$sum': 1 },
         { '$sort': { 'points': -1 } },
         { '$limit': scoreObject.limit }
       ], function (err, doc) {
@@ -123,7 +123,7 @@ Here are the bottom-up pictures from our back end:
       ...
       mongoPool.collection('scores').aggregate([
         { '$match': { 'handle': { '$exists': 1 }, 'gid': { '$in': scoreObject.gids } } },
-        { '$group': { '\_id': '$handle', 'points': { '$sum': '$point' } } },
+        { '$group': { '_id': '$handle', 'points': { '$sum': '$point' } } },
         { '$sort': { 'points': -1 } }
       ], function (err, doc) {
         ...
@@ -138,7 +138,7 @@ Here are the bottom-up pictures from our back end:
             position = i + 1;
             point = doc[i].points;
           }
-          if (doc[i].\_id === scoreObject.handle) {
+          if (doc[i]._id === scoreObject.handle) {
             find = position;
           }
           if (find != -1 && i >= scoreObject.limit) {
