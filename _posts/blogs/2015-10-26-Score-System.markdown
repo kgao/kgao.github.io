@@ -16,7 +16,7 @@ tags: 'MongoDB, Restful, Back End, User Interaction'
 One goal for modern media today is to increase readers' loyalty.  Although the loyalty programs technology is a very big topic, including many aspects in different field. Most popular ones are: link to related posts, promote popular posts, subscribe email list, membership offers, content likes, comments, follow and share, reader interviews, direct publish on multi-media, entertainment elements(music,video,games,vote,quiz).
 
 Today, let's focus on one piece of it, game and quiz. And the scene behind it - Scoring and Ranking System.
-We released our [Voting Quiz](nymag.com/thecut/2015/10/sex-habits-784-college-students.html) with percentage feature last week, and last friday, we released our first [Weekly Culture Quiz](http://www.vulture.com/2015/10/vultures-week-in-culture-quiz.html) with membership rank and leaderboard feature on our great brand [Vulture](vulture.com).
+We released our [Voting Quiz](http://nymag.com/thecut/2015/10/sex-habits-784-college-students.html) with percentage feature last week, and last friday, we released our first [Weekly Culture Quiz](http://www.vulture.com/2015/10/vultures-week-in-culture-quiz.html) with membership rank and leaderboard feature on our great brand [Vulture](http://www.vulture.com).
 fdafdfadfadsf
 Vulture, the entertainment destination from the team behind New York magazine, is a beacon for passionate fans who want a smart, comprehensive take on the world of culture and offers around-the-clock, wall-to-wall coverage of movies, TV, music and beyond. Vulture's writers and editors celebrate culture both high and low, because you never know where the next truly brilliant moment will come from.
 
@@ -110,7 +110,7 @@ Here are the bottom-up pictures from our back end:
       ...
       mongoPool.collection('scores').aggregate([
         { '$match': { 'handle': { '$exists': 1 }, 'gid': { '$in': scoreObject.gids } } },
-        { '$group': { '_id': '$handle', 'points': { '$sum': '$point' } } }, 
+        { '$group': { '_id': '$handle', 'points': { '$sum': '$point' } } },
         { '$sort': { 'points': -1 } },
         { '$limit': scoreObject.limit }
       ], function (err, doc) {
@@ -339,3 +339,8 @@ What's more, to make it more useful, if we got good experiences for maintain thi
 
 Now, it's time to for us to save the real world together!
 Like Jane Mcgonigal said in book <Reality is broken>, lets play the game and change the world.
+
+
+Enjoy:
+[Voting Quiz](http://nymag.com/thecut/2015/10/sex-habits-784-college-students.html)
+[Weekly Culture Quiz](http://www.vulture.com/2015/10/vultures-week-in-culture-quiz.html)
