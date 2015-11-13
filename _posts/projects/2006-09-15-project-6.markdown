@@ -5,7 +5,8 @@ date: 2006-09-15
 img: submarine.png
 alt: image-alt
 project-date: September 2006
-client: cie.sdu.edu.cn
+client: Shandong University
+link: http://www.cie.sdu.edu.cn
 industry: Education
 category: projects
 description: During the time working in Bchine software development department, delivery the website for the SDU CIE NEWS  (http://www.cie.sdu.edu.cn) using JSP+ Struts+MySQL.
