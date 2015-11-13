@@ -5,7 +5,8 @@ date: 2011-10-10
 img: circus.png
 alt: image-alt
 project-date: October 2011
-client: diamond.com
+client: Diamond Inc
+link: http://diamond.com
 industry: E-commerce
 category: projects
 description: Diamond.com is an Ecommerce incorporation, own the brand of ice.com, one of the first companies to turn a jewelry store into an online shopping experience and since 1999. Joined the division of IT department, delivery Front/Back End J2EE solutions with an agile developer team. Development support related in front/back end technologies.
