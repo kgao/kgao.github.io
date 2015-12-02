@@ -11,7 +11,7 @@ tags: 'Normalization,Denormalization,NoSQL'
 > This is not the only post you will find on the internet about it, I create a personal post here more as a personal reference.
 
 
-A NoSQL (often interpreted as Not Only SQL) database provides a mechanism for storage and retrieval of data that is modeled in means other than the tabular relations used in relational databases. Motivations for this approach include simplicity of design, horizontal scaling and finer control over availability. The data structure (e.g. key-value, graph, or document) differs from the RDBMS, and therefore some operations are faster in NoSQL and some in RDBMS. 
+A NoSQL (often interpreted as Not Only SQL) database provides a mechanism for storage and retrieval of data that is modeled in means other than the tabular relations used in relational databases. Motivations for this approach include simplicity of design, horizontal scaling and finer control over availability. The data structure (e.g. key-value, graph, or document) differs from the RDBMS, and therefore some operations are faster in NoSQL and some in RDBMS.
 
 NoSQL databases are increasingly used in big data and real-time web applications.
 
@@ -25,14 +25,14 @@ Normalized databases fair very well under conditions where the applications are 
 
 {% highlight bash %}
 
-    1. Normalized tables are usually smaller and have a smaller foot-print because the data is divided vertically 
+    1. Normalized tables are usually smaller and have a smaller foot-print because the data is divided vertically
     among many tables.
     2. This allows them to perform better as they are small enough to get fit into the buffer.
-    3. The updates are very fast because the data to be updated is located at a single place and there are no 
+    3. The updates are very fast because the data to be updated is located at a single place and there are no
     duplicates.
-    4. Similarly the inserts are very fast because the data has to be inserted at a single place and does not have 
+    4. Similarly the inserts are very fast because the data has to be inserted at a single place and does not have
     to be duplicated.
-    5. The selects are fast in cases where data has to be fetched from a single table, because normally normalized 
+    5. The selects are fast in cases where data has to be fetched from a single table, because normally normalized
     tables are small enough to get fit into the buffer.
     6. Because the data is not duplicated so there is less need for heavy duty group by or distinct queries.
 
@@ -45,8 +45,8 @@ Denormalized databases fair well under heavy read-load and when the application 
 {% highlight bash %}
 
     1. The data is present in the same table so there is no need for any joins, hence the selects are very fast.
-    2. A single table with all the required data allows much more efficient index usage. If the columns are indexed 
-    properly, then results can be filtered and sorted by utilizing the same index. While in the case of a normalized 
+    2. A single table with all the required data allows much more efficient index usage. If the columns are indexed
+    properly, then results can be filtered and sorted by utilizing the same index. While in the case of a normalized
     table, since the data would be spread out in different tables, this would not be possible.
 
 {% endhighlight %}
@@ -79,7 +79,7 @@ We also build relationships, like embeded resource in articles, it brings us suc
     1. Arranging data into logical groupings such that each group describes a small part of the whole
     2. Minimizing the amount of duplicate data stored in a database
     3. Organizing the data such that, when you modify it, you make the change in only one place
-    4. Building a database in which you can access and manipulate the data quickly and efficiently 
+    4. Building a database in which you can access and manipulate the data quickly and efficiently
     without compromising the integrity of the data in storage
 
 
@@ -95,6 +95,3 @@ i.e. If an imgage is embedded in multiple articles, updating the image -> mongo-
 
 Most company like us are actually facing a hybrid (SQL plus NoSQL) environment now.
 Denormalized schema can greatly improve performance under extreme read-loads but the updates and inserts become complex as the data is duplicate and hence has to be updated/inserted in more than one places. When we have reference or embedded resources or centralized updtes, we may still need normalize data.
-
-
-
