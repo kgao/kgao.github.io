@@ -338,7 +338,7 @@ said by allison.libert who ranked currently No.6 in our vulture weekly quiz lead
 What's more, to make it more useful, if we got good experiences for maintain this nodejs module, we could possiblely opensource this module and express the success to the media community.
 
 Now, it's time to for us to save the real world together!
-Like Jane Mcgonigal said in book <Reality is broken>, lets play the game and change the world.
+Like Jane Mcgonigal said in book [《Reality is broken》](https://play.google.com/store/books/details?id=yiOtN_kDJZgC&source=productsearch&utm_source=HA_Desktop_US&utm_medium=SEM&utm_campaign=PLA&pcampaignid=MKTAD0930BO1&gl=US&gclid=CPHFvreUwMkCFRWlNwodXZwB_w&gclsrc=ds), lets play the game and change the world.
 
 
 Enjoy:
