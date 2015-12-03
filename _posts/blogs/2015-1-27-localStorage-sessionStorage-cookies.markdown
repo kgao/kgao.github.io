@@ -56,7 +56,7 @@ Advantage of local/sessionStorage over cookies:
 
 2) Local / Session Storage are both restricted to the domain setting/getting the values, so if you use localStorage.set('key', 'val') on www.domain1.com, you cannot access that data using localStorage.get('key') on www.domain2.com. Bear in mind the restriction also applies to domains and subdomains - i.e. you cannot access www.domain1.com local/session storage from sub.domain1.com either.
 
- 
+
 Btw, how to maintain a request session in NodeJS?
 You need to make a cookie jar and use the same jar for all related requests.
 
@@ -67,5 +67,4 @@ You need to make a cookie jar and use the same jar for all related requests.
 
 That should in theory allow you to scrape pages with GET as a logged-in user, but only once you get the actual login code working. Based on your description of the response to your login POST, that may not be actually working correctly yet, so the cookie jar won't help until you fix the problems in your login code first.
 
-
-
+Ref: Look up more explaination and inspired here -> http://stackoverflow.com/

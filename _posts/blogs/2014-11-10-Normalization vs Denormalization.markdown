@@ -1,7 +1,7 @@
 ---
 layout: blog
 category: blogs
-title: 'DataBase Normalization vs Denormalization: My thoughts in a NoSQL World'
+title: 'DataBase Normalization vs Denormalization: And My Thoughts in a NoSQL World'
 date: '2014-11-10'
 author: Kgao
 tags: 'Normalization,Denormalization,NoSQL'
@@ -91,7 +91,15 @@ i.e. If an image is embedded in multiple slideshows, updating the image will upd
 i.e. If an imgage is embedded in multiple articles, updating the image -> mongo-connector-> will automatic sync to article db.
 
 
-#Conclusion:
+#Conclusion & Thoughs:
 
 Most company like us are actually facing a hybrid (SQL plus NoSQL) environment now.
 Denormalized schema can greatly improve performance under extreme read-loads but the updates and inserts become complex as the data is duplicate and hence has to be updated/inserted in more than one places. When we have reference or embedded resources or centralized updtes, we may still need normalize data.
+
+
+
+
+Ref:
+Read more explaination and inspired here -> http://goo.gl/RhtuyP
+Normalization -> https://en.wikipedia.org/wiki/Database_normalization
+Denormalization -> https://en.wikipedia.org/wiki/Denormalization

@@ -86,4 +86,4 @@ servers and content delivery networks without re-writing the applications.
 
 {% endhighlight %}
 
-Ref - Dive Into HTML5(http://diveintohtml5.info)
+Ref: Dive Into HTML5, read more explaination and inspired here -> http://diveintohtml5.info
