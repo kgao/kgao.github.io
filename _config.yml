@@ -1,10 +1,10 @@
 # Site settings
-title: Kev - New York Software Engineer
+title: Kevin Gao - NYSE(New York Software Engineer)
 home: Home
 name: Kevin Gao
 email: kevin.leo.gao@gmail.com
 #"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-description: "Kevin Gao - NYSE(New York Software Engineer), Computer Scientist, FullStack Developer From New York Media, Skater, Punker and Rocker Star. "
+description: "Kevin Gao - RSDE from MSR NYC."
 
 # Contact form: comment the line below if you want to stick with the default PHP contact form
 contact: static
@@ -30,8 +30,8 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 75 Varick
-  - line: New York, NY 10013
+  - line: Manhattan
+  - line: New York, NY
 
 # Build settings
 markdown: kramdown
