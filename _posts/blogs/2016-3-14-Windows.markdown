@@ -11,9 +11,7 @@ tags: 'Windows, Command'
 > This is not the only post you will find on the internet about it, I create a personal post here more as a personal reference.
 
 
-#Intro:
-
-An A-Z Index of the Windows CMD  command line
+An A-Z Index of the Windows CMD  command line:
 
 
 {% highlight bash %}
