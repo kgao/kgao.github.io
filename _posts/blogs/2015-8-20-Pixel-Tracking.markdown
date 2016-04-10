@@ -4,7 +4,7 @@ category: blogs
 title: 'An Implementation for Pixel Tracking'
 date: '2015-8-20'
 author: Kgao
-tags: 'Pixel Tracking, Personalization, Recommendation, Node.js, MySQL'
+tags: 'Node.js, Pixel, Personalization, Recommendation'
 ---
 
 
