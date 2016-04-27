@@ -5,6 +5,7 @@ title: 'First Local Instance With Nginx'
 date: '2014-11-07'
 author: Kgao
 tags: 'HTTP, Server'
+public: true
 ---
 
 

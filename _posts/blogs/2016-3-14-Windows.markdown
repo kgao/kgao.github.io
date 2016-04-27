@@ -5,6 +5,7 @@ title: 'Windows Command A-Z Lookbook'
 date: '2016-3-14'
 author: Kgao
 tags: 'Windows, Command'
+public: true
 ---
 
 

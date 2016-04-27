@@ -5,6 +5,7 @@ title: 'Edge Side Includes (ESI) Overview'
 date: '2014-11-11'
 author: Kgao
 tags: 'ESI'
+public: false
 ---
 
 

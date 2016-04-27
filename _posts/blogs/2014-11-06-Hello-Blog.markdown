@@ -5,6 +5,7 @@ title: 'Hello World: How to write a tech blog.'
 date: '2014-11-06'
 author: Kgao
 tags: 'Github,Marketdown'
+public: true
 ---
 
 

@@ -5,6 +5,7 @@ title: 'DataBase Normalization vs Denormalization: And My Thoughts in a NoSQL Wo
 date: '2014-11-10'
 author: Kgao
 tags: 'Normalization,Denormalization,NoSQL'
+public: false
 ---
 
 

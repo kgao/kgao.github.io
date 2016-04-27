@@ -5,6 +5,7 @@ title: 'An Implementation for Exit Intent Technology'
 date: '2015-4-29'
 author: Kgao
 tags: 'Exit Intent, Node.js, Web'
+public: true
 ---
 
 

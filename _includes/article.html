@@ -652,6 +652,9 @@
       <h1 class="title">{{ page.title }}</h1> {{ content }}
     </article>
 
+ <!--Social Share-->
+ {% include share.html %}
+ 
  <!--FB comments-->
   <div id="fb-root"></div>
     <script>
@@ -664,7 +667,7 @@
       }(document, 'script', 'facebook-jssdk'));
     </script>
   
-    <div class="fb-comments" data-colorscheme="light" data-href="{{ site.githubUrl }}{{ page.url }}" data-width="100%" data-numposts="5" data-order-by
+    <div class="fb-comments" data-colorscheme="light" data-href="{{ site.url }}{{ page.url }}" data-width="100%" data-numposts="5" data-order-by
 ="reverse_time" data-mobile="Auto-detected"></div>
   
   </div>

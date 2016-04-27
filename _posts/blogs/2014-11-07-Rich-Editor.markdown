@@ -5,6 +5,7 @@ title: 'A Rich Editor'
 date: '2014-11-07'
 author: Kgao
 tags: 'UX, Component'
+public: true
 ---
 
 

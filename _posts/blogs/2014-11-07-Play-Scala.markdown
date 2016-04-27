@@ -5,6 +5,7 @@ title: 'Build Scala In Play Framework'
 date: '2014-11-07'
 author: Kgao
 tags: 'Play, Scala'
+public: true
 ---
 
 

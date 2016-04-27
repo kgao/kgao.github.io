@@ -5,6 +5,7 @@ title: 'Linux Command A-Z Lookbook'
 date: '2014-11-07'
 author: Kgao
 tags: 'Linux, Command'
+public: true
 ---
 
 

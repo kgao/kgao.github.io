@@ -30,6 +30,7 @@
             <div>
             {% endif %}
             {% endunless %}
+            {% if post.public %}
             <article>
                <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">
                 {{ post.title }}</a>
@@ -39,6 +40,7 @@
                 </div>
            </article>
            <hr/>
+           {% endif %}
         {% if forloop.last %}</div></div>{% endif %}
         {% endfor %}
         </div>

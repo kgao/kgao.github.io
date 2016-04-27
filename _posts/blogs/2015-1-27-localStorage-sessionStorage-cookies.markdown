@@ -5,6 +5,7 @@ title: 'Difference between localStorage, sessionStorage and cookies'
 date: '2015-1-27'
 author: Kgao
 tags: 'LocalStorage, SessionStorage, Cookies'
+public: false
 ---
 
 

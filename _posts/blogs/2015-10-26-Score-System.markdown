@@ -5,6 +5,7 @@ title: 'The Scoring and Ranking System behind Game and Quiz'
 date: '2015-10-26'
 author: Kgao
 tags: 'MongoDB, Restful, Back End, User Interaction'
+public: true
 ---
 
 

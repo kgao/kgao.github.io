@@ -5,6 +5,7 @@ title: 'A Quick Cross Project Preview Solution'
 date: '2014-11-14'
 author: Kgao
 tags: 'CQ5,JSP,Javascript,AJAX'
+public: true
 ---
 
 

@@ -5,6 +5,7 @@ title: 'An Implementation for Pixel Tracking'
 date: '2015-8-20'
 author: Kgao
 tags: 'Node.js, Pixel, Personalization, Recommendation'
+public: true
 ---
 
 

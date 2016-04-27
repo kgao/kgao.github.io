@@ -5,6 +5,7 @@ title: 'Deploy Meteor Application to Microsoft Azure'
 date: '2016-4-26'
 author: Kgao
 tags: 'Meteor.js, Windows Azure, Virtual Machine'
+public: true
 ---
 
 
