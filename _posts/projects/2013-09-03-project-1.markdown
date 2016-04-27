@@ -9,6 +9,6 @@ client: Microsoft Corporation
 link: https://microsoft.com
 industry: Computer software, Computer hardware, Consumer electronics, Digital distribution
 category: projects
-description: Located in the Flatiron District in Manhattan, Microsoft Reserach NYC provides a unique environment that encourage creative, scientific, and long-term thinking. Work in a team of researchers and developers driven by passion to solve challenging problem and advance the state of the art in computational and experimental social science, algorithmic economics and prediction markets, machine learning, and information retrieval.
+description: Located in the Flatiron District in Manhattan, Microsoft Research NYC provides a unique environment that encourage creative, scientific, and long-term thinking. Work in a team of researchers and developers driven by passion to solve challenging problem and advance the state of the art in computational and experimental social science, algorithmic economics and prediction markets, machine learning, and information retrieval.
 
 ---
