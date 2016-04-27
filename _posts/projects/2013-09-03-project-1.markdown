@@ -4,11 +4,11 @@ modal-id: 1
 date: 2013-09-03
 img: cabin.png
 alt: image-alt
-project-date: September 2013
-client: New York Media,LLC
-link: http://nymag.com
-industry: Media
+project-date: March 2016
+client: Microsoft Corporation
+link: https://microsoft.com
+industry: Computer software, Computer hardware, Consumer electronics, Digital distribution
 category: projects
-description: Based in bustling New York City, we are a large Media Holdings Co. of various print and web publications. New York Magazine, founded in April 1968, reaches 1.8 million readers each week and is published by New York Media, LLC. Join the world class engineering team as a backend developer.Contribute to establishing coding standards, refining testing strategies, selecting new frameworks and technologies
+description: Located in the Flatiron District in Manhattan, Microsoft Reserach NYC provides a unique environment that encourage creative, scientific, and long-term thinking. Work in a team of researchers and developers driven by passion to solve challenging problem and advance the state of the art in computational and experimental social science, algorithmic economics and prediction markets, machine learning, and information retrieval.
 
 ---

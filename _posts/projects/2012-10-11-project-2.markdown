@@ -4,11 +4,11 @@ modal-id: 2
 date: 2012-10-11
 img: cake.png
 alt: image-alt
-project-date: October 2012
-client: ICE Inc
-link: http://ice.com
-industry: E-commerce
+project-date: September 2013
+client: New York Media,LLC
+link: http://nymag.com
+industry: Media
 category: projects
-description: Ice is an Ecommerce incorporation, one of the first companies to turn a jewelry store into an online shopping experience and since 1999. Joined the division of Ice IT department, delivery Front/Back End J2EE solutions with an agile developer team. Development related in front/back end technologies,handle OMS, CMS, S3 Uploader System and customer loyalty program.
+description: Based in bustling New York City, we are a large Media Holdings Co. of various print and web publications. New York Magazine, founded in April 1968, reaches 1.8 million readers each week and is published by New York Media, LLC. Join the world class engineering team as a backend developer.Contribute to establishing coding standards, refining testing strategies, selecting new frameworks and technologies
 
 ---
