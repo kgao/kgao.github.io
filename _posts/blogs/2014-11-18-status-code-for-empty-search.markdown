@@ -11,7 +11,7 @@ tags: 'SEO,200,204,400,404'
 > This is not the only post you will find on the internet about it, I create a personal post here more as a personal reference.
 
 
-#Problem:
+## Problem:
 
 We have a site with faceted search but sometimes when someone drills down too far it ends up with no results. 
 i.e. Try search ')()(' in google, you will get:
@@ -46,7 +46,7 @@ http://www.vulture.com/news/fall-2009/11209/
 These pages are returning status code 200 right now, URLs like this need to return status code 404 instead of 200.
 
 
-#Challenge: 
+## Challenge: 
 
 From developer team perspective, it looks like 200 is fine, since we do serve resoponse from our backend.
 From desginer team perspective, they don't really care the http status code, as long as they can have a good UI with customer infomation on it.
@@ -58,7 +58,7 @@ It's easy to do when you run a personal blog or a small website with less than 1
 However it required more work to do when you run a high traffic website with 5 subsites and 5 domains behind the web server.
 Most importantly, it might not worth to do those redirects and other hacky codes in your middle layer.
 
-#Research:
+## Research:
 
 Let's take look of the standard again:
 
@@ -121,7 +121,7 @@ advice from google:
 http://googlewebmastercentral.blogspot.com/2014/02/faceted-navigation-best-and-5-of-worst.html
 
 
-#Dicussion:
+## Dicussion:
 
 (1). 204: NO CONTENT
 Some one recommended 204 No Content as the request was successful. On list methods a 404 makes me think the API method does not exist.
@@ -143,7 +143,7 @@ Some business partner and SEO team would like to suggest this, return a 404 when
 (4). 400: BAD REQUEST
 Seems like we should never blame users not matter what they ask, no one supports this yet, lol.
 
-#Conclusion:
+## Conclusion:
 
 I was searching around for 200 vs 204 discussion on an empty REST collection, and am glad I dig this and find out many different thoughts. Ppl all bring out excellent points for either 200 with an empty collection or 204 with no content (I agree that 404 is a bad approach). I feel that 204 fits well (successful but no content) and seems to embrace the HTTP standard.  After noticing that Rails by default favors a 200 with an empty array for JSON responses and reading the other comments here, I see how that can be a consistent result as well.  Granted, either way, consistency in the API is important (choose 204 or 200 with an empty collection but use that pattern consistently in the API).
 

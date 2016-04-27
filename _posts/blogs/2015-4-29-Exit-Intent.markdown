@@ -11,7 +11,7 @@ tags: 'Exit Intent, Node.js, Web'
 > This is not the only post you will find on the internet about it, I create a personal post here more as a personal reference.
 
 
-#Intro:
+## Intro:
 
 Exit Intent Technology now is growing in the whole internet world. It's a must-have feature in your site.
 
@@ -23,7 +23,7 @@ Today, I’m going to show you two things:
 1st The value of this technology will bring to your site.
 2nd The implementation of it.
 
-#Design:
+## Design:
 
 The general theory behind exit popups is fairly simple. Let’s imagine that a user has been browsing through your awesome site, then decides to leave without doing any of the things you want them to do (buying, registering etc). In that moment of indecision we can briefly interrupt them with a message, steering them towards a singular call to action.
 
@@ -47,7 +47,7 @@ Now that we have an idea on why users might be leaving our site, we can use our 
 Let’s look at some wildly different examples below, each of which are used for a different purpose.
 
 
-#Implementation:
+## Implementation:
 
 Basically we need to meet these requirements in our team:
 Event triggers if user is closing the window, opening a new tab, toggling to a different tab, moving for the bookmarks bar or the search bar.
@@ -90,7 +90,7 @@ Here is a version using jQuery and ouibounce lib:
 {% endhighlight %}
 
 
-#What's More:
+## What's More:
 
 It's your turn now, you can play with it, go create some popups like newsletter signup, member only promotion...etc.
 Let the user remember it first.

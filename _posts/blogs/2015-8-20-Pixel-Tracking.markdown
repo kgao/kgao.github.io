@@ -11,7 +11,7 @@ tags: 'Node.js, Pixel, Personalization, Recommendation'
 > This is not the only post you will find on the internet about it, I create a personal post here more as a personal reference.
 
 
-#Intro:
+## Intro:
 
 One orientation for big data is understand and estimate user's behavior. A good use case so far is recommendation system.
 Like Facebook likes, Amazon recommendations, and Apple genius. How ever, all those big data movement need data collection work
@@ -25,7 +25,7 @@ i.e. who is clicking through on ads and ending up on a sales page.
 
 Thus, Pixel Tracking now is growing in the whole internet world. It's a must-have feature in your site.
 
-#How It Works:
+## How It Works:
 
 Basically, you need use Javascript to create a pixel embed into client side page.
 It will fire an HTTP GET request (like get an 1x1 pixel img) to the server, to track the movements of a user.
@@ -38,7 +38,7 @@ Today, I’m going to show you two things:
 1st. How the the pixel get created on client side.
 2nd. How to design the server side api.
 
-#Implementation:
+## Implementation:
 
 1.How the the pixel get created on client side:
 
@@ -138,7 +138,7 @@ Imagine if you use node.js + express to create a server side api for this.
   {% endhighlight %}
 
 
-#End:
+## End:
 
 Those above just provide a basic idea in code level for implementation a pixel tracking story. There are more works related for set up db, server, applications. Also, you might have different requirements, so this is general enough to extend different usecases.
 

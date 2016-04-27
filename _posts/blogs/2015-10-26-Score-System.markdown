@@ -11,7 +11,7 @@ tags: 'MongoDB, Restful, Back End, User Interaction'
 > This is not the only post you will find on the internet about it, I create a personal post here more as a personal reference.
 
 
-#Background:
+## Background:
 
 One goal for modern media today is to increase readers' loyalty.  Although the loyalty programs technology is a very big topic, including many aspects in different field. Most popular ones are: link to related posts, promote popular posts, subscribe email list, membership offers, content likes, comments, follow and share, reader interviews, direct publish on multi-media, entertainment elements(music,video,games,vote,quiz).
 
@@ -20,7 +20,7 @@ We released our [Voting Quiz](http://nymag.com/thecut/2015/10/sex-habits-784-col
 fdafdfadfadsf
 Vulture, the entertainment destination from the team behind New York magazine, is a beacon for passionate fans who want a smart, comprehensive take on the world of culture and offers around-the-clock, wall-to-wall coverage of movies, TV, music and beyond. Vulture's writers and editors celebrate culture both high and low, because you never know where the next truly brilliant moment will come from.
 
-#The system design:
+## The system design:
 
 Basically, its a fullStack environment to achieve this. Here I wanna focus on more what I've done, so let's assume you have an awesome front end support which the UI creative works are already done.
 
@@ -42,7 +42,7 @@ Here are the bottom-up pictures from our back end:
    GET: /account/score/rank?gids={Gameids}&handle={UserName}&limit={LimitNumber}
    {% endhighlight %}
 
-#Implementation:
+## Implementation:
 
 1. Here is a doc example in MongoDB:
   {% highlight bash %}
@@ -312,7 +312,7 @@ Here are the bottom-up pictures from our back end:
 
 
 
-#End:
+## End:
 
 "One way or another, if human evolution is to go on, we shall have to learn to enjoy life more thoroughly."        - Mihaly Csikszentmihalyi.
 

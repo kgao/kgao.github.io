@@ -12,7 +12,7 @@ tags: 'ESI'
 
 Edge Side Includes (ESI) accelerates dynamic Web-based applications by defining a simple markup language to describe cacheable and non-cacheable Web page components that can be aggregated, assembled and delivered at the network edge.
 
-#The Promise and Challenge of Dynamic Content
+## The Promise and Challenge of Dynamic Content
 
 The World Wide Web has evolved beyond simply displaying static Web pages. Increasingly, e-
 businesses are delivering dynamically generated content -- such as product catalogs, auctions,
@@ -37,7 +37,7 @@ forced to spend millions of dollars on hardware, software and services to meet t
 growing user population.
 
 
-#Dynamic Caching and Content Assembly Using ESI
+## Dynamic Caching and Content Assembly Using ESI
 
 ESI enables Web pages to be broken down into fragments of differing cacheability profiles. These
 fragments are maintained as separate elements in the application serverís local cache and/or on the
@@ -47,7 +47,7 @@ delivered from the edge when requested. Furthermore, page assembly can be condit
 information provided in HTTP request headers or end-user cookies
 
 
-#Content Management System (CMS) Using ESI
+## Content Management System (CMS) Using ESI
 
 ESI provides a number of ways to manage the consistency (freshness) of cached objects, including the
 ability to define expiration policies. Due to the unpredictable nature of frequently changing content, ESI
@@ -67,7 +67,7 @@ be served from thousands of content delivery servers spread across the hundreds 
 the Internet.
 
 
-# Summary: Key Benefits of ESI
+## Summary: Key Benefits of ESI
 
 {% highlight bash %}
 1. Speeds up delivery of highly dynamic Web-based applications;

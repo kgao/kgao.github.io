@@ -19,7 +19,7 @@ This has really been a long debate as to which approach is more performance orie
 
 First lets review some basics:
 
-#Pros and Cons of a Normalized database design.
+## Pros and Cons of a Normalized database design.
 
 Normalized databases fair very well under conditions where the applications are write-intensive and the write-load is more than the read-load. This is because of the following reasons:
 
@@ -38,7 +38,7 @@ Normalized databases fair very well under conditions where the applications are 
 
 {% endhighlight %}
 
-#Pros and cons of denormalized database design.
+## Pros and cons of denormalized database design.
 
 Denormalized databases fair well under heavy read-load and when the application is read intensive. This is because of the following reasons:
 
@@ -53,11 +53,11 @@ Denormalized databases fair well under heavy read-load and when the application 
 
 
 
-#Our Practice:
+## Our Practice:
 
 In our media tech team, we have multiple resources like articles, images, slideshows, videos, and also 3rd party resources.
 
-# - Denormalization:
+##  - Denormalization:
 Since our digital content mainly focus on pages now, we denormalize data in articles collection and normallize other resources.
 
 The reason we denormalize articles because we can sever the page faster, without join multiple collections to gather the information, we can get articles feeds instantly.
@@ -67,7 +67,7 @@ Denormalization in articles collection makes sense since the client(CMS) will ma
 This really imporoved the response speed and reduced lots mongo slow queries, in a high concurrency environment, which will boost the page speed in a very optimistic way.
 
 
-# - Normalization:
+## - Normalization:
 
 To reduce the duplication of data, separate each department's responsibility and provide a faster update channel for internal resource update, we normalize some resources, like images, slideshows, videos...etc.
 
@@ -91,7 +91,7 @@ i.e. If an image is embedded in multiple slideshows, updating the image will upd
 i.e. If an imgage is embedded in multiple articles, updating the image -> mongo-connector-> will automatic sync to article db.
 
 
-#Conclusion & Thoughs:
+## Conclusion & Thoughs:
 
 Most company like us are actually facing a hybrid (SQL plus NoSQL) environment now.
 Denormalized schema can greatly improve performance under extreme read-loads but the updates and inserts become complex as the data is duplicate and hence has to be updated/inserted in more than one places. When we have reference or embedded resources or centralized updtes, we may still need normalize data.

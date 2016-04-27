@@ -19,7 +19,7 @@ Built on Akka, Play provides predictable and minimal resource consumption (CPU, 
 Example is built on mac os x.
 Scala Project in Play Framework.
 
-#Install Scala:
+## Install Scala:
 Install: scala-2.10.3
 horstmann.com/scala/install
 
@@ -30,7 +30,7 @@ $ brew install scala
 Then, add Scala to Path:
 {% highlight bash %}
 $ PATH=/opt/local/bin:/Users/{yourName}/workspace/scala-2.10.3/bin:/opt/local/sbin:$PATH
-# or
+## or
 $ export PATH=$PATH:/Users/{yourName}/workspace/scala-2.10.3/bin/
 {% endhighlight %}
 
@@ -43,7 +43,7 @@ scala >
 {% endhighlight %}
 
 
-#Install play framework:
+## Install play framework:
 
 You can use the following command:
 {% highlight bash %}
@@ -65,12 +65,12 @@ https://github.com/mxcl/homebrew/blob/master/Library/Formula/play.rb
 Then, add Play to Path:
 {% highlight bash %}
 $ export PATH=$PATH:/Users/{yourName}/Documents/play-2.1.1/
-# or
+##  or
 $ export PATH=$PATH:/Users/{yourName}/.../play-2.1.3/
 {% endhighlight %}
 
 
-#Play: Create new project:
+## Play: Create new project:
 
 Step1 Build project:
 {% highlight bash %}
@@ -108,7 +108,7 @@ http://localhost:9000/
 
 
 
-#Play Plus IDE: (i.e. Eclipse)
+## Play Plus IDE: (i.e. Eclipse)
 
 Play provides a command to simplify Eclipse configuration. To transform a Play application into a working Eclipse project, use the eclipse command:
 

@@ -11,7 +11,7 @@ tags: 'CSI,SSI,ESI'
 > This is not the only post you will find on the internet about it, I create a personal post here more as a personal reference.
 
 
-#Problem:
+## Problem:
 
 We have a media site with tons of articles pages and readers.
 They like us and they like to share those great articles to their social networks, like fb, twitter and pintrest...etc.
@@ -48,7 +48,7 @@ In a dynamic Webpage, content update and change, but this does not mean that cou
 
 Dynamic Cache pages have some scheme:
 
-#Client Side Includes(CSI):
+## Client Side Includes(CSI):
 
 　　Through the iframe, JavaScript, Ajax and other forms in addition a dynamic page content included. To achieve dynamic.
 
@@ -72,7 +72,7 @@ no work timely server content updated.
 To solve the often by adding JS version
 {% endhighlight %}
 
-#Server Side Includes(SSI):
+## Server Side Includes(SSI):
 
 　　SSI it is a HTML file, can through the comment line called command or pointer. The content of the web site update. SSI requires the file suffix special(shtml,inc).
 
@@ -95,7 +95,7 @@ So through the CDN, Cache, or failure,
 is not flexible
 {% endhighlight %}
 
-#Edge Side Includes (ESI):
+## Edge Side Includes (ESI):
 
 　　 Edge Side Includes(ESI) And Server Side Includes (SSI) and similar functions. SSI requires the file suffix special(shtml,inc). ESI(Edge Side Include)By using a simple markup language for those who can be accelerated and cannot be accelerated in Webpage pieces of content description, Each Webpage were divided into small portions of different with different control strategies cache respectively, The Cache server can be based on these strategies in sends complete Webpage to the user before the small part of different combination of dynamic. Through this control, can effectively reduce the number of servers from crawling the entire page, but only from the original server extracting a few not cached fragments, thus effectively reduce the load of the original server can, at the same time, improve the response time of user access.
 
@@ -117,7 +117,7 @@ people use. This technology programmer not.
 {% endhighlight %}
 
 
-#Conclusion:
+## Conclusion:
 
 So it's up to you to choose the technology,
 but it's up to the technology to fit your project.

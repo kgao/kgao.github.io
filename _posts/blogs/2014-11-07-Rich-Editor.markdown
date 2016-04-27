@@ -10,7 +10,7 @@ tags: 'UX, Component'
 
 > This is not the only post you will find on the internet about it, I create a personal post here more as a personal reference.
 
-#Try it out:
+## Try it out:
 <html>
 <head>
 <title>Rich Text Editor</title>

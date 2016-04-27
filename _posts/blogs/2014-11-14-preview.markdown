@@ -12,13 +12,13 @@ tags: 'CQ5,JSP,Javascript,AJAX'
 
 
 
-#Problem:
+## Problem:
 In a digital media project, we have old CQ5 system serving current articles as a CMS, and now we built an awesome UI project with markup, styles, logic and data in frontEnd, and the editors hope to preview their work in old CMS but with the layout rendered by the new template. Which basically need a cross project preview freature.
 
 This problem is very practical and many recent media company may face the same issue. Though there are many different solutions for this too. After an agile quick standup within my team, we came up a 5min quick solution. (That's how ppl would accept and feel easy to convince others on a late friday afternoon, lol)
 
 
-#Solution: 
+## Solution: 
 
 The challenge is move a non-existing item(unpublished article) from  one system(CQ5) to another(NewTemplate).
 
@@ -32,7 +32,7 @@ The overview of the idea will be:
 
 
 
-#Implementation:
+## Implementation:
 
 So the implementation is pretty clear now:
 Build a javascript program with one api call to sync ($.ajax) and redirect (302) or open a new tab in browser to preview with new template. (window.open)
@@ -57,7 +57,7 @@ $.ajax({
 });
 {% endhighlight %}
 
-#Improvement:
+## Improvement:
 
 To let the editors use the javascript, we should make it a bookmarklet, by wrap it into:
 {% highlight bash %}
@@ -68,7 +68,7 @@ javascript:(function(){
 
 Then add a new bookmark to the browser, editor can preview the unpublished article in new template by one click.
 
-#Future Work:
+## Future Work:
 In a real development world, you have to face the reality. You might came up with a 5min work which looks smart, but you need to think about the maintain efforts in a long term. 
 Yes you can put your code in your gist like https://gist.github.com/kgao and let ppl create bookmark everytime, 
 however, a better humanity approach will be add a button in old CMS(CQ5) and do the ajax call in jsp to popup a new template page to preview.

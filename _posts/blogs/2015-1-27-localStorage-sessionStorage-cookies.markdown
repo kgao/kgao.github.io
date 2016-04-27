@@ -11,7 +11,7 @@ tags: 'LocalStorage, SessionStorage, Cookies'
 > This is not the only post you will find on the internet about it, I create a personal post here more as a personal reference.
 
 
-#Intro:
+## Intro:
 
 This is an extremely broad scope question, and a lot of the pros/cons will be contextual to the situation.
 
@@ -19,7 +19,7 @@ In all cases these storage mechanisms will be specific to an individual browser 
 
 localStorage, sessionStorage and cookies are all client storage solutions. Session data is held on the server where it remains under your direct control.
 
-#LocalStorage and SessionStorage:
+## LocalStorage and SessionStorage:
 
 localStorage and sessionStorage are relatively new APIs (meaning not all legacy browsers will support them) and are near identical (both in APIs and capabilities) with the sole exception of persistence. sessionStorage (as the name persists) is only available for the duration of the browser session (and is deleted when the window is closed) - it does however survive page reloads (source DOM Storage guide - Mozilla Developer Network).
 
@@ -27,7 +27,7 @@ Clearly, if the data you are storing needs to be available on an ongoing basis t
 
 localStorage and sessionStorage are perfect for persisting non-sensitive data needed within client scripts between pages (for example: preferences, scores in games). The data stored in localStorage and sessionStorage can easily be read or changed from within the client/browser so should not be relied upon for storage of sensitive or security related data within applications.
 
-#Cookies:
+## Cookies:
 
 This is also true for cookies, these can be trivially tampered with by the user, and data can also be read from them in plain text - so if you are wanting to store sensitive data then session is really your only option. If you are not using SSL, cookie information can also be intercepted in transit, especially on an open wifi.
 
@@ -35,7 +35,7 @@ On the positive side cookies can have a degree of protection applied from securi
 
 As cookies are used for authentication purposes and persistence of user data, all cookies valid for a page are sent from the browser to the server for every request to the same domain - this includes the original page request, any subsequent Ajax requests, all images, stylesheets, scripts and fonts. For this reason cookies should not be used to store large amounts of information. Browser may also impose limits on the size of information that can be stored in cookies. Typically cookies are used to store identifying tokens for authentication, session and advertising tracking. The tokens are typically not human readable information in and of themselves, but encrypted identifiers linked to your application or database.
 
-#Client-side vs. Server-side:
+## Client-side vs. Server-side:
 As HTTP is a stateless protocol - web applications have no way of identifying a user from previous visits on returning to the web site - session data usually relies on a cookie token to identify the user for repeat visits (although rarely URL parameters may be used for the same purpose). Data will usually have a sliding expiry time (renewed each time the user visits), and depending on your server/framework data will either be stored in-process (meaning data will be lost if the web server crashes or is restarted) or externally in a state server or database. This is also necessary when using a web-farm (more than one server for a given website).
 
 As session data is completely controlled by your application (server side) it is the best place for anything sensitive or secure in nature.
@@ -46,7 +46,7 @@ Some web frameworks/developers use hidden HTML inputs to persist data from one p
 
 localStorage, sessionStorage and cookies are all subject to "same-origin" rules which means browsers should prevent access to the data except from the domain that set the information to start with.
 
-#Conclustion: LocalStorage vs. SessionStorage vs. Cookies:
+## Conclustion: LocalStorage vs. SessionStorage vs. Cookies:
 
 In terms of capabilities, cookies only allow you to store strings. sessionStorage and localStorage allow you to store JavaScript primitives but not Objects or Arrays (it is possible to JSON serialise them to store them using the APIs). Session storage will generally allow you to store any primitives or objects supported by your Server Side language/framework.
 
