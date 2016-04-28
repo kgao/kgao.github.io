@@ -14,10 +14,10 @@ public: true
 
 So far as you know Meteor official support team just ends their Galaxy free hosting in the end of March. Which is sad... :(
 However, that's life! When you seeking some other replacement for your hosting, you might find some articles recently talking about deployment on AWS, Digital Ocean, Heroku...etc.
-For windoes users, some of those might not always fully compatible. So, as an exploer of web technoloy, I spent some time to figure out new deployment solutions for Meteor apps - Microsoft Azure.
+For windows users, and users who are planning to or currently using Microsoft Azure, there might be lack of articles talking about it before Azure add native support for Meteor. As an explorer of web technoloy, I believe everything is possible, so I spent some time to figure out new deployment solutions for Meteor apps in Microsoft Azure.
 
 
-Please note: This might not focus for beginners to Meteor, this suppose you already have:
+Let's assume you already have:
 
 1. A Meteor app running locally.  (Check how to build your Meteor app [here](http://www.meteor.com))
 2. Azure account. (Get your free Azure account [here](https://azure.microsoft.com/en-us/free/))
@@ -65,7 +65,7 @@ Please note: This might not focus for beginners to Meteor, this suppose you alre
      
     For **Windows** users, you can use [Azure-demeteorizer](https://github.com/christopheranderson/azure-demeteorizer).
     Make sure you install and meet all the [prerequisites](https://github.com/christopheranderson/azure-demeteorizer#prerequisites) first, (Note: Visual Studio 2013 would be the most comaptible choice for most users.)
-    then Azure-demeteorizer can do all the magic for you:
+    then Azure-demeteorizer can do all the magic for you (Thanks to my colleague Christopher, this is a great tool for windows users!):
     
 ```javascript
 > 1. npm install -g christopheranderson/azure-demeteorizer
