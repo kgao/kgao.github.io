@@ -22,7 +22,7 @@ gem install github-pages + jekyll serve
 
 layout: blog
 category: blogs
-title: 'Welcome to NYMag Dev Blog'
+title: 'Welcome to My Dev Blog'
 date: '2014-11-19'
 author: Kgao
 tags: 'Github,Marketdown'
