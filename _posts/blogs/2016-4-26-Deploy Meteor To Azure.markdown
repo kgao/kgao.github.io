@@ -154,6 +154,8 @@ you have to demeteorize first, and do a continuous deployment with Git, TFS, Git
 ```
 *For other deployments on Modulus, DigitalOcean, Galaxy, please check the official deployment book [here](http://meteortips.com/deployment-tutorial/).
 
-Thank you for reading, hope this will help your work. 
-Feel free to leave your comment here and interact with others!
+
+
+Thank you for reading, hope this will benefit your daily work. 
+Feel free to leave your comment here and share with others!
 :)
