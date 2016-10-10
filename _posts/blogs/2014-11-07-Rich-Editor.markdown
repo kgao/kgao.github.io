@@ -156,7 +156,7 @@ img.intLink { border: 0; }
 <img class="intLink" title="Paste" onclick="formatDoc('paste');" src="data:image/gif;base64,R0lGODlhFgAWAIQUAD04KTRLY2tXQF9vj414WZWIbXmOrpqbmpGjudClFaezxsa0cb/I1+3YitHa7PrkIPHvbuPs+/fvrvv8/f///////////////////////////////////////////////yH5BAEAAB8ALAAAAAAWABYAAAWN4CeOZGmeaKqubGsusPvBSyFJjVDs6nJLB0khR4AkBCmfsCGBQAoCwjF5gwquVykSFbwZE+AwIBV0GhFog2EwIDchjwRiQo9E2Fx4XD5R+B0DDAEnBXBhBhN2DgwDAQFjJYVhCQYRfgoIDGiQJAWTCQMRiwwMfgicnVcAAAMOaK+bLAOrtLUyt7i5uiUhADs=" />
 </div>
 <div id="textBox" contenteditable="true"><p>Enjoy Kev's Rich Editor v0.0.1!</p></div>
-<p id="editMode">
+<div id="editMode">
 
 <label for="switchBox">Show HTML</label>
 
@@ -247,9 +247,9 @@ img.intLink { border: 0; }
   <input type="checkbox" checked onclick="toggleOnAndOff()"  name="switchMode" id="switchBox" onchange="setDocMode(this.checked);" >
   <div class="slider round"><span id="switchText" class="on">ON</span></div>
 </label>
-
-</p>
-<p><input type="submit" value="Send" /></p>
+</div>
+</div>
+<p><input type="submit" value="Return" /></p>
 </form>
 </body>
 </html>
