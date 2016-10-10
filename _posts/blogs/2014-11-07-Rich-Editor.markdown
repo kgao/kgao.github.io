@@ -156,7 +156,99 @@ img.intLink { border: 0; }
 <img class="intLink" title="Paste" onclick="formatDoc('paste');" src="data:image/gif;base64,R0lGODlhFgAWAIQUAD04KTRLY2tXQF9vj414WZWIbXmOrpqbmpGjudClFaezxsa0cb/I1+3YitHa7PrkIPHvbuPs+/fvrvv8/f///////////////////////////////////////////////yH5BAEAAB8ALAAAAAAWABYAAAWN4CeOZGmeaKqubGsusPvBSyFJjVDs6nJLB0khR4AkBCmfsCGBQAoCwjF5gwquVykSFbwZE+AwIBV0GhFog2EwIDchjwRiQo9E2Fx4XD5R+B0DDAEnBXBhBhN2DgwDAQFjJYVhCQYRfgoIDGiQJAWTCQMRiwwMfgicnVcAAAMOaK+bLAOrtLUyt7i5uiUhADs=" />
 </div>
 <div id="textBox" contenteditable="true"><p>Enjoy Kev's Rich Editor v0.0.1!</p></div>
-<p id="editMode"><input type="checkbox" name="switchMode" id="switchBox" onchange="setDocMode(this.checked);" /> <label for="switchBox">Show HTML</label></p>
+<p id="editMode">
+
+<label for="switchBox">Show HTML</label>
+
+<!-- A Simple Toggle Switch  On/Off Button CSS, JS and HTML  -->
+<style>
+#OnAndOff .switch {
+  position: relative;
+  display: inline-block;
+  width: 80px;
+  height: 34px;
+}
+#OnAndOff .switch input {display:none;}
+
+#OnAndOff .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+#OnAndOff .slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+#OnAndOff input:checked + .slider {
+  background-color: #007a00;
+}
+
+#OnAndOff input:focus + .slider {
+  box-shadow: 0 0 1px #007a00;
+}
+
+#OnAndOff input:checked + .slider:before {
+  -webkit-transform: translateX(46px);
+  -ms-transform: translateX(46px);
+  transform: translateX(46px);
+}
+
+/* Rounded sliders */
+#OnAndOff .slider.round {
+  padding: 5px;
+  border-radius: 34px;
+}
+
+#OnAndOff .slider.round:before {
+  border-radius: 50%;
+}
+#OnAndOff span.on {
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+#OnAndOff span.off {
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-left: 28px;
+}
+</style>
+<script>
+         function toggleOnAndOff() {
+            if (document.getElementById("switchText").className === 'on') {
+                document.getElementById("switchText").className = 'off';
+                document.getElementById("switchText").innerHTML = 'OFF';
+            } else {
+                //alert(document.getElementById("switchText").className);
+                //document.getElementById("switchText").className === 'off'
+                document.getElementById("switchText").className = 'on';
+                document.getElementById("switchText").innerHTML = 'ON';
+            }
+        }
+</script>
+<div id="OnAndOff">
+<label class="switch" >
+  <input type="checkbox" checked onclick="toggleOnAndOff()"  name="switchMode" id="switchBox" onchange="setDocMode(this.checked);" >
+  <div class="slider round"><span id="switchText" class="on">ON</span></div>
+</label>
+
+</p>
 <p><input type="submit" value="Send" /></p>
 </form>
 </body>
