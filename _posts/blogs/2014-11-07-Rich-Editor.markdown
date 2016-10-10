@@ -245,7 +245,7 @@ img.intLink { border: 0; }
 <div id="OnAndOff">
 <label class="switch" >
   <input type="checkbox" onclick="toggleOnAndOff()"  name="switchMode" id="switchBox" onchange="setDocMode(this.checked);" >
-  <div class="slider round"><span id="switchText" class="on">ON</span></div>
+  <div class="slider round"><span id="switchText" class="off">OFF</span></div>
 </label>
 </div>
 </div>
