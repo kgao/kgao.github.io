@@ -124,7 +124,7 @@ Some statistics about node.js community:
     
     350,000 packages total published.
     500 new packages upload per day.
-    6 billion packages total download.
+    6 billion packages total downloads.
 
 
 
