@@ -115,11 +115,13 @@ Btw, here is my [bot](https://github.com/kgao/ok-bot), serving msr nyc’s slack
 He talked about the 'OOS' – OPEN open source.
 
 Reason to the Node.js popularity:
+    
     1.	Apps are being published endless in community.
     2.	Easy to pick up and learn.
     3.	JavaScript.
 
 Some statistics about node.js community:
+    
     350,000 packages total published.
     500 new packages upload per day.
     6 billion packages total download.
