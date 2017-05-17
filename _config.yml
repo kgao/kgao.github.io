@@ -4,6 +4,7 @@ home: Home
 name: Kevin Gao
 email: kevin.leo.gao@gmail.com
 url: https://kgao.github.io
+time: 17
 
 #"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 description: "Kevin Gao - RSDE from MSR NYC."
@@ -20,15 +21,17 @@ color:
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
-    url: http://twitter.com/hb123boy
+    url: https://twitter.com/hb123boy
   - title: facebook
     url: https://www.facebook.com/Kevin.L.Gao
   - title: stack-overflow
-    url: http://stackoverflow.com/users/3574259/kev
+    url: https://stackoverflow.com/users/3574259/kev
   - title: bitbucket
     url: https://bitbucket.org/hb123boy
   - title: github
-    url: http://github.com/kgao
+    url: https://github.com/kgao
+  - title: wordpress
+    url: https://hb123boy.wordpress.com
 
 # Postal address (add as many lines as necessary)
 address:
