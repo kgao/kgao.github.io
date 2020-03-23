@@ -26,7 +26,7 @@ One of my colleagues - Microsoft Machine Learning Leading Researcher John Langfo
 
 Hope this would help heal the society, and I believe the more people read this, the more they would understand the difficulty of the current crisis control and reduce the pressure on governments. 
 
-The current situation also keeps me up at night thinking how we can implement the Test/Trace/Quarantine in practice, so here is what comes into my mind as an solution: A social & economy recovery solution inspired by traffic lights.
+The current situation also keeps me up at night thinking how we can implement the Test/Trace/Quarantine in practice, so here is what comes into my mind: A social & economy recovery solution inspired by traffic lights.
 
 
 ## ***Idea***
