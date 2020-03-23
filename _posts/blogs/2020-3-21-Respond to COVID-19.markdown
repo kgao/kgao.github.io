@@ -46,7 +46,7 @@ To apply a policy of Test/Trace/Quarantine facing COVID-19 we need a similar con
 
 ### Plan
 
-![Traffic_Light_Plan](../../../../../img/screenshots/traffic_light_plan.jpg)
+![Traffic_Light_Plan](../../../../../img/screenshots/traffic_light_plan.JPG)
 
 ## ***Solution***
 
