@@ -52,7 +52,7 @@ To apply a policy of Test/Trace/Quarantine facing COVID-19 we need a similar con
 
 ### Detail
 
-1. Yellow Light Status:  Everyone goes through a Test x 2 within 48 hrs from certain authorized agencies to determine their next 2 Weeks social status, information will be recorded in QR Code and assign to each individual.
+1. Yellow Light Status:  Everyone goes through a Test x 2 within 48 hrs from certain authorized agencies to determine their next 2 Weeks social status, information will be recorded in QR Code and assigned to each individual.
 
 2. Green Light Status:  Once test negative, you are assigned a Green QR pass, you can go out and travel, pass will be expired in 2 Weeks, then you will need a new test to renew your pass.
 
@@ -60,7 +60,7 @@ To apply a policy of Test/Trace/Quarantine facing COVID-19 we need a similar con
 
 ### Conclusion
 
-I do think this is quite a challenge to our society, lack of the test kits may make this approach less effective, however, we need to move the wheels of social life and economy again, at least at some point. So we need wake up as a crowd with a collaborative mindset, better sooner than later.
+I do think this is quite a challenge to our society, lack of the test kits may also make this approach less effective, however, we need to move the wheels of social life and economy again, at least at some point. So we need wake up as a crowd with a collaborative mindset, better sooner than later.
 
 
 Thank you for reading, hope this will bring our society and economy back to normal. 
