@@ -21,8 +21,7 @@ Despite all the 'controversy’ on social channels saying that social distancing
 
 On the other hand, people also worry about the city lock down completely (like Wuhan) might scare people out and generate more panic feelings, eventually generated society security risks when the resource are lacked. So what can we science out of the data?
 
-One of my colleagues - Microsoft Machine Learning Leading Researcher John Langford has made some good research on this, I would recommend all the decision makers to read this:
-https://hunch.net/?p=13762539
+One of my colleagues - Microsoft Machine Learning Leading Researcher John Langford has made some good research on this, I would recommend all the decision makers to read this[blog post](https://hunch.net/?p=13762539).
 
 Hope this would help heal the society, and I believe the more people read this, the more they would understand the difficulty of the current crisis control and reduce the pressure on governments. 
 
